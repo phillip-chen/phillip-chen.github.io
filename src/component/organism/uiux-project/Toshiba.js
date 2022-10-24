@@ -69,7 +69,7 @@ class Toshiba extends React.Component {
                         </ul>
                         <li className='underline'><span className='font-bold'>Storybook Research</span></li>
                         <ul className='mt-2 text-light-primary dark:text-dark-primary space-y-3 lg:space-y-0 font-light'>
-                            <li>Researched a front-end tool, Storybook, which helps developer better maintain and test the components from the design system, and created a proof of concept to present to PM, design manager & the development team. The objective is to have the the development team gradually adopt the framework to streamline the overall workflow.</li>    
+                            <li>Researched a front-end tool, Storybook, which helps developer better maintain and test the components from the design system, and created a proof of concept to present to PM, design manager & the development team. The objective is to have the development team gradually adopt the framework to streamline the overall workflow.</li>    
                         </ul>
                     </ul>
                 </section>
@@ -77,7 +77,7 @@ class Toshiba extends React.Component {
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
-                        text = 'While my works are mostly about research, I learned a lot about the human-centered design process through my research works and participation in the weekly design critiques. This experience teaches me to gain a better sense of empathizing the user needs and helps me become a better UX practitioner. I am very grateful for this opportunity at Toshiba.'
+                        text = 'While my works were mostly about research, I learned a lot about the human-centered design process through my research works and participation in the weekly design critiques. This experience teaches me to gain a better sense of empathizing the user needs and helps me become a better UX practitioner. I am very grateful for this opportunity at Toshiba.'
                     />
                 </section>
 
