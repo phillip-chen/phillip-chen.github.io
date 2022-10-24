@@ -31,7 +31,7 @@ class AboutPage extends React.Component{
                         ' />
                         <BodyText color='default' className='' text={
                             [
-                                'Outside my work, I love to travel around the globe, I am lucky enough to have traveled to 10+ countries. I also love drinks, enjoying a cup of coffee in the morning, craft beers at Friday nights, and boba tea whenever possible.',
+                                'Outside my work, I love to travel around the globe, I am lucky enough to have traveled to 10+ countries. I also love drinks, enjoying a cup of coffee in the morning, craft beers at Friday nights, and boba teas whenever possible.',
                             ]
                         }
                         />
@@ -56,10 +56,10 @@ class AboutPage extends React.Component{
                     </div>
                     <div className='space-y-5'>
                         <Header color='default' className={'mt-5 xl:mt-0'} text={"Personal Goal"} />
-                        <BodyText color='default' className='' text={'My long...long...long-term goal is to open up my personal brewery, but really, I seek to become a better problem solver by honing my soft and hard skills. I also enjoy working with people from all walks of lives, inspiring creativity and novel ideas together!'} />
+                        <BodyText color='default' className='' text={'My long...long...long-term goal is to open up my personal brewery, but really, I ultimate goal is to become a better problem solver in any domain. I also enjoy working with people from all walks of lives, inspiring creativity and novel ideas together!'} />
                         <BodyText color='default' className='' text={
                             [
-                                'Therefore, if you would like to get in touch with me, feel free to shoot me an ',
+                                'If you like to get in touch with me, shoot me an ',
                                 <a key='important-text-1' href='mailto:yitsung.chen95@gmail.com' target='_blank' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>Email</a>,
                                 ' or connect through my ',
                                 <a key='important-text-2' href='https://www.linkedin.com/in/yi-tsung-c-795815b7/' target='_blank' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>LinkedIn</a>,

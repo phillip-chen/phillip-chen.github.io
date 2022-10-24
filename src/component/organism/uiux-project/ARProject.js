@@ -19,6 +19,7 @@ import filmingSet from '../../../asset/ar-game/filming-set.png';
 import finalScreen from '../../../asset/ar-game/final-screens.png';
 import reward from '../../../asset/ar-game/reward-map.png';
 import cv from '../../../asset/ar-game/cv-work.png';
+import storyScript from '../../../asset/ar-game/GW-Game-story.pdf';
 
 
 class ARProject extends React.Component {
@@ -47,7 +48,7 @@ class ARProject extends React.Component {
                         {title:'Time', text:'10 Weeks'},
                         {title:'Responsibility', text:'Research, Ideation, UI Development'},
                         {title:'Tools', text:'Adobe XD, VS Code'},
-                        {title:'Overview', text:'Leverage emerging technologies to form a luxrious guest experience for a Fortune 500 hotel brand\'s luxrious branch at Washington D.C.'},
+                        {title:'Overview', text:'Leverage emerging technologies to form a unique and memorable guest experience for a Fortune 500 hotel brand\'s luxrious branch at Washington D.C.'},
                     ]} className='space-y-5' projectTitle = 'Design a Luxrious Experience' titleDetails = '2022 - UNC BSI Lab - Client Sponsored Project' />
                 </section>
 
@@ -97,7 +98,7 @@ class ARProject extends React.Component {
                                 titleDetails = 'Set up the design objective' 
                         />
                         <BodyText color='default' className='mt-1 font-thin' text='We started by defining our design question:' />
-                        <SubHeaderText color='text-light-secondary dark:text-dark-secondary' className='mt-5 font-bold underline italic' text='How might we create a unique and memorable experience for a luxrious hotel' />
+                        <SubHeaderText color='text-light-secondary dark:text-dark-secondary' className='mt-5 font-bold underline italic' text='How might we create a unique and memorable experience for a luxrious hotel?' />
                     </aside>
                     <aside>
                         <CaseStudySectionTitle 
@@ -184,7 +185,7 @@ class ARProject extends React.Component {
 
                 <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
                     <div className='flex flex-col lg:flex-row'>
-                        <aside className='space-x-0 w-full xl:w-60%'>
+                        <aside className='space-x-0 w-80% xl:w-60%'>
                             <div className='inline-block lg:hidden'>
                                 <CaseStudySectionTitle 
                                         projectTitle = 'Story Script' 
@@ -194,15 +195,15 @@ class ARProject extends React.Component {
                             <img className='mt-4 xl:mt-0' src={story} alt='story script screenshot' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-2' text={'Partial story script'} />
                         </aside>
-                        <aside className='flex flex-col px-0 lg:px-4  space-y-6 mt-10 xl:mt-0'>
+                        <aside className='flex flex-col px-0 lg:px-4  space-y-6 mt-4 xl:mt-0'>
                             <div>
-                                <div className='hidden lg:inline-block mt-4'>
+                                <div className='hidden lg:inline-block'>
                                     <CaseStudySectionTitle 
                                             projectTitle = 'Story Script' 
                                             titleDetails = 'Document the interaction'
                                     />
                                 </div>
-                                <BodyText color='default' className='font-thin mt-2' text={['The story consisted of 3 historical figures - ', <span key='bold-text-fig-1' className='font-bold'>George Washington</span>, ', ', <span key='bold-text-fig-2' className='font-bold'>Martha Washington</span>, ', and ', <span key='bold-text-fig-3' className='font-bold'>James Armistead</span>, ' whom we think best represent the historical value of Washington D.C.']} />
+                                <BodyText color='default' className='font-thin mt-2' text={['The story consisted of 3 historical figures - ', <span key='bold-text-fig-1' className='font-bold'>George Washington</span>, ', ', <span key='bold-text-fig-2' className='font-bold'>Martha Washington</span>, ', and ', <span key='bold-text-fig-3' className='font-bold'>James Armistead</span>, ' whom we think best represent the historical value of Washington D.C. ( ', <a href={storyScript} target='_blank' className='text-light-secondary dark:text-dark-secondary underline'>Read full length of our story script</a>,' )']} />
                             </div>
                             <BodyText color='default' className='font-thin' text={'The story built around a secret spy mission referencing an historical event where guests have the chance to collect a unique reward upon finishing the game.'} />
                         </aside>
@@ -224,7 +225,7 @@ class ARProject extends React.Component {
                     </div>
                     <div>
                         <BodyText color='default' className='font-bold' text = {'Interaction Flow Summary'} />
-                        <BodyText color='default' className='font-thin mt-2' text={'Our game consists of 11 steps of interactions to achieve the reward (details are displayed in the story script), where we designed to cater for different level of interactions based on different guest personas.'} />
+                        <BodyText color='default' className='font-thin mt-2' text={['Our game consists of 11 steps of interactions to achieve the reward ( ', <a href={storyScript} target='_blank' className='text-light-secondary dark:text-dark-secondary underline'>details are displayed in the story script</a>,' ), where we designed to cater for different level of interactions based on different guest personas.']} />
                         <div className='space-y-4 mt-4'>
                             <img className='rounded-md' src={flow} alt='screenshot of the partial story script' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='text-center' text={'Screenshot of the end-to-end game interaction flow'} />
@@ -238,11 +239,11 @@ class ARProject extends React.Component {
                             projectTitle = 'Polish the Game Experience' 
                             titleDetails = 'Simulating a real luxrious experience' 
                         />
-                        <BodyText color='default' className='mt-1 font-thin' text={'We place major resources to capture quality frames that can be used in the prototype, including to rent the 18-century style of dressing and recruit the professionals to help us film/ record voice sound of the 3 historical figures in our game.'} />
+                        <BodyText color='default' className='mt-1 font-thin' text={'After we finished the interaction flow and initial screen design, we then placed major resources to capture quality frames that can be used in the prototype, including to rent the 18-century style of dressing and recruit professionals to help us film & record voice of the 3 historical figures in our game.'} />
                     </section>
                     <section className='mt-12'>
                         <img className='' src={filmingSet} alt='filming set screenshot' />
-                        <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-4' text={'Photos were the filming set with the recruited professional actor/actress'} />
+                        <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-4' text={'Filming setup with the recruited actor/actress on set'} />
                     </section>
 
                     <section className='flex flex-col xl:flex-row xl:space-x-6 mt-28'>
