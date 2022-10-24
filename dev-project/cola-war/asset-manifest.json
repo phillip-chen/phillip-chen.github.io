@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "./static/css/main.37fa290c.css",
+    "main.js": "./static/js/main.3193f298.js",
+    "static/media/pepsi-timeline-cover.svg": "./static/media/pepsi-timeline-cover.aba699d5ca77802438828285781354be.svg",
+    "static/media/fun-fact-pepsi-cover2.png": "./static/media/fun-fact-pepsi-cover2.d3eb98ef33362f3dcdd7.png",
+    "static/media/slide-1-left-2.png": "./static/media/slide-1-left-2.af10858b5cf73a1c56c6.png",
+    "static/media/slide-1-left-1.png": "./static/media/slide-1-left-1.6cdfbf70a1d5f958eb55.png",
+    "static/media/fun-fact-pepsi-cover.jpeg": "./static/media/fun-fact-pepsi-cover.05be4af9b8e3f528abae.jpeg",
+    "static/media/coca-cola-timeline-cover.jpeg": "./static/media/coca-cola-timeline-cover.2a9e4c7f3e5b0d11f347.jpeg",
+    "static/media/fun-fact-coca-cover-2.jpeg": "./static/media/fun-fact-coca-cover-2.65ef21e9ba4d14e9fb7a.jpeg",
+    "static/media/fun-fact-coca-cover.jpeg": "./static/media/fun-fact-coca-cover.20c29b34c15382792c91.jpeg",
+    "static/media/slide-1-right-2.png": "./static/media/slide-1-right-2.75b1881ae7d496e4ea67.png",
+    "static/media/slide-1-right-1.png": "./static/media/slide-1-right-1.3966c0b3eef727f95705.png",
+    "static/media/bg.svg": "./static/media/bg.54a33542be70ff6fac4c.svg",
+    "static/media/coca-cola-logo.svg": "./static/media/coca-cola-logo.7a47d2b20b269d6b6351594604ffd9db.svg",
+    "static/media/pepsi-logo.svg": "./static/media/pepsi-logo.e3788453d80f06d6d067a99a39008eb6.svg",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "./index.html",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "static/media/test.svg": "./static/media/test.5f6068be1cc35a88edd0.svg",
+    "static/media/quiz-bg.svg": "./static/media/quiz-bg.3799f46523d0ce5d8da0.svg",
+    "static/media/slide-bg.svg": "./static/media/slide-bg.f8a22bc6eedd51ee3968.svg",
+    "static/media/arrow.svg": "./static/media/arrow.f455d39e44517f83b3cf.svg",
+    "main.37fa290c.css.map": "./static/css/main.37fa290c.css.map",
+    "main.3193f298.js.map": "./static/js/main.3193f298.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37fa290c.css",
+    "static/js/main.3193f298.js"
+  ]
+}
