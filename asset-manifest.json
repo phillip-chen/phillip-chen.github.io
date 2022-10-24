@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0c94e9ab.css",
-    "main.js": "/static/js/main.92c2e67e.js",
+    "main.js": "/static/js/main.5eea2c76.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/worm-moodboard.png": "/static/media/worm-moodboard.3658619f00b7f6225ab8.png",
@@ -30,6 +30,7 @@
     "static/media/rwd-dashboard-project.png": "/static/media/rwd-dashboard-project.2a7a9e289b5bed9f146b.png",
     "static/media/game-flow.svg": "/static/media/game-flow.e78bc87ccecd8ddb48de584d769b85df.svg",
     "static/media/movie-viz-project.png": "/static/media/movie-viz-project.dddf42ae7b89cdbc15db.png",
+    "static/media/GW-Game-story.pdf": "/static/media/GW-Game-story.157ee015420f20dc6b16.pdf",
     "static/media/cola-war-project.png": "/static/media/cola-war-project.b593de7d026b77de10ec.png",
     "static/media/floor-plan.png": "/static/media/floor-plan.415c57ec520f2316af7a.png",
     "static/media/logo.svg": "/static/media/logo.3d77c150875013cd7fc3.svg",
@@ -39,10 +40,10 @@
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
     "main.0c94e9ab.css.map": "/static/css/main.0c94e9ab.css.map",
-    "main.92c2e67e.js.map": "/static/js/main.92c2e67e.js.map"
+    "main.5eea2c76.js.map": "/static/js/main.5eea2c76.js.map"
   },
   "entrypoints": [
     "static/css/main.0c94e9ab.css",
-    "static/js/main.92c2e67e.js"
+    "static/js/main.5eea2c76.js"
   ]
 }
