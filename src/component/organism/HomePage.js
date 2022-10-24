@@ -6,6 +6,7 @@ import IconNavList from '../molecular/IconNavList';
 import Dropdown from '../molecular/Dropdown';
 import ProjectCard from '../molecular/ProjectCard';
 import LogoLoader from '../atom/LogoLoader';
+import resume from '../../asset/phillip-chen-resume-2022.pdf';
   
 
 class HomePage extends React.Component{
@@ -46,7 +47,7 @@ class HomePage extends React.Component{
                 <section className={animation.animation1 + 'home-text-section px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-40 2xl:mt-60 space-y-6 md:space-y-5 2xl:space-y-7'}>
                     <Header color='default' className='' text={"Hi! I am Yi-Tsung (Phillip) Chen"} />
                     <SubHeader color='default' className='' text={["A UX Designer / Developer studying Information Science at the University of North Carolina - Chapel Hill. Previously tackled user problems at ", <span key='important-text-1' className='font-bold text-light-secondary dark:text-dark-secondary'>Toshiba</span>, " & ", <span key='important-text-2' className='font-bold text-light-secondary dark:text-dark-secondary'>UNC BSI Lab</span>]} />
-                    <BodyText color='default' className='' text = {["Seeking full time opportunities for 2023, view my ", <a key='important-text-1' href='resume.pdf' className='font-bold text-light-secondary dark:text-dark-secondary underline decoration-1 underline-offset-2 decoration-wavy'  target='_blank'>RESUME</a>, " or shoot me an ", <a key='important-text-2' href='mailto:yitsung.chen95@gmail.com' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>EMAIL</a>, ". I am always down for a chat."]} />
+                    <BodyText color='default' className='' text = {["Seeking full time opportunities for 2023, view my ", <a key='important-text-1' href={resume} className='font-bold text-light-secondary dark:text-dark-secondary underline decoration-1 underline-offset-2 decoration-wavy'  target='_blank'>RESUME</a>, " or shoot me an ", <a key='important-text-2' href='mailto:yitsung.chen95@gmail.com' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>EMAIL</a>, ". I am always down for a chat."]} />
                     <IconNavList />
                 </section>
                 <section className={animation.animation2 + 'project-section px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% pt-10 pb-5 mt-6 2xl:mt-32'}>
