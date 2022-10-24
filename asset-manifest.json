@@ -1,20 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0c94e9ab.css",
-    "main.js": "/static/js/main.5eea2c76.js",
+    "main.js": "/static/js/main.e42500f9.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/worm-moodboard.png": "/static/media/worm-moodboard.3658619f00b7f6225ab8.png",
     "static/media/phillip-chen-resume-2022.pdf": "/static/media/phillip-chen-resume-2022.bfde41da40d41db3a35d.pdf",
-    "static/media/cv-kiosk-home-img.svg": "/static/media/cv-kiosk-home-img.5e1766a902562a4a48084b79cfcbc003.svg",
     "static/media/design-asset.svg": "/static/media/design-asset.d77a0b26473b9c6f128938a6586fe4f1.svg",
     "static/media/sports-sketch.png": "/static/media/sports-sketch.cd10e5b10673ea281c28.png",
     "static/media/infographic-worm.png": "/static/media/infographic-worm.09ecb1a91734c10e128f.png",
     "static/media/sports-moodboard.png": "/static/media/sports-moodboard.47bf34a86c24bd4af13c.png",
     "static/media/user-flow.png": "/static/media/user-flow.bedbb6ff9d8596075b87.png",
-    "static/media/movie-project-home-img.svg": "/static/media/movie-project-home-img.1e53bd78c3d0418a0768c6c02b84ca78.svg",
     "static/media/final-screens.png": "/static/media/final-screens.6500ff6fb4a6b9de8358.png",
-    "static/media/web-dash-design-home-img.svg": "/static/media/web-dash-design-home-img.aaefd0c2c38c1401960a71495f9e8e27.svg",
     "static/media/filming-set.png": "/static/media/filming-set.37b32e5aa779426bebcb.png",
     "static/media/cv-work.png": "/static/media/cv-work.8bc534eea851b7621051.png",
     "static/media/ideation.png": "/static/media/ideation.51ffede007aaba255322.png",
@@ -22,6 +19,7 @@
     "static/media/head-shot.png": "/static/media/head-shot.b58a9532d0cb14692bfa.png",
     "static/media/worm-sketch.png": "/static/media/worm-sketch.9b8d82391fda68be1682.png",
     "static/media/storyboard-1.svg": "/static/media/storyboard-1.f72497e5d42afccb222c76b53b27cea0.svg",
+    "static/media/cv-kiosk-home-img.png": "/static/media/cv-kiosk-home-img.9d6cd50c87ae10dee00e.png",
     "static/media/storyboard-2.svg": "/static/media/storyboard-2.ebae819ed6465fb26150a121f5b81bfe.svg",
     "static/media/storyboard-3.svg": "/static/media/storyboard-3.606bd085ba6b28c60af1d8f450de58af.svg",
     "static/media/infographic-sports.png": "/static/media/infographic-sports.9e64e0238fd2dc82cb2d.png",
@@ -40,10 +38,10 @@
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
     "main.0c94e9ab.css.map": "/static/css/main.0c94e9ab.css.map",
-    "main.5eea2c76.js.map": "/static/js/main.5eea2c76.js.map"
+    "main.e42500f9.js.map": "/static/js/main.e42500f9.js.map"
   },
   "entrypoints": [
     "static/css/main.0c94e9ab.css",
-    "static/js/main.5eea2c76.js"
+    "static/js/main.e42500f9.js"
   ]
 }

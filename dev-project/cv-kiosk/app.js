@@ -161,14 +161,14 @@ cvBtn.addEventListener('click', () => {
                 
                 // Initiate a stop playing counts (if the closest audience no longer face directly in front of the cam, or walk away from the frame, start counting...)
                 // If the face continuously not passing the threshold for 20 times every 100 milisec, stop playing and bring back the GW portrait
-                stopPlayingThreshold = 20;
+                stopPlayingThreshold = 30;
 
                 context.strokeStyle = 'red';
                   context.stroke();
 
                   videoThreshold++;
 
-                  if(videoThreshold === 7){
+                  if(videoThreshold === 30){
                     // Reset the video playing threshold
                     videoThreshold = 0;
 
