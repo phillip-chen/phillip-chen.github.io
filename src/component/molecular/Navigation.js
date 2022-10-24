@@ -28,8 +28,7 @@ class Navigation extends React.Component{
                                 <NavLink page = {'about'} />
                             </li>
                             <li>
-                                {/* <NavLink page = {'resume'} /> */}
-                                <a href={resume} className='nav-link border-b border-transparent tracking-wider font-body-text text-sm text-light-primary dark:text-dark-primary hover:border-light-primary dark:hover:border-dark-primary duration-300'>
+                                <a href={resume} target='_blank' className='nav-link border-b border-transparent tracking-wider font-body-text text-sm text-light-primary dark:text-dark-primary hover:border-light-primary dark:hover:border-dark-primary duration-300'>
                                     RESUME
                                 </a>
                             </li>
