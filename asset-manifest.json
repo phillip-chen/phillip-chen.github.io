@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.51e9d0a2.css",
-    "main.js": "/static/js/main.31e8d022.js",
+    "main.css": "/static/css/main.c4e83508.css",
+    "main.js": "/static/js/main.1ce63fc1.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/worm-moodboard.png": "/static/media/worm-moodboard.3658619f00b7f6225ab8.png",
+    "static/media/phillip-chen-resume-2022.pdf": "/static/media/phillip-chen-resume-2022.ce335895e7b5614b77b8.pdf",
     "static/media/cv-kiosk-home-img.svg": "/static/media/cv-kiosk-home-img.5e1766a902562a4a48084b79cfcbc003.svg",
     "static/media/design-asset.svg": "/static/media/design-asset.d77a0b26473b9c6f128938a6586fe4f1.svg",
     "static/media/sports-sketch.png": "/static/media/sports-sketch.cd10e5b10673ea281c28.png",
@@ -37,11 +38,11 @@
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
-    "main.51e9d0a2.css.map": "/static/css/main.51e9d0a2.css.map",
-    "main.31e8d022.js.map": "/static/js/main.31e8d022.js.map"
+    "main.c4e83508.css.map": "/static/css/main.c4e83508.css.map",
+    "main.1ce63fc1.js.map": "/static/js/main.1ce63fc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.51e9d0a2.css",
-    "static/js/main.31e8d022.js"
+    "static/css/main.c4e83508.css",
+    "static/js/main.1ce63fc1.js"
   ]
 }
