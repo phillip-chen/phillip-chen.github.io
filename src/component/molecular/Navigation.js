@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLink from '../atom/NavLink';
 import Switch from '../atom/DarkModeSwitch';
-
+import resume from '../../asset/phillip-chen-resume-2022.pdf';
 
 class Navigation extends React.Component{
     constructor(props){
@@ -28,7 +28,10 @@ class Navigation extends React.Component{
                                 <NavLink page = {'about'} />
                             </li>
                             <li>
-                                <NavLink page = {'resume'} />
+                                {/* <NavLink page = {'resume'} /> */}
+                                <a href={resume} className='nav-link border-b border-transparent tracking-wider font-body-text text-sm text-light-primary dark:text-dark-primary hover:border-light-primary dark:hover:border-dark-primary duration-300'>
+                                    RESUME
+                                </a>
                             </li>
                             <li>
                                 <Switch />

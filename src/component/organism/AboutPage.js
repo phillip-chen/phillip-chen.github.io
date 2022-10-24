@@ -37,7 +37,8 @@ class AboutPage extends React.Component{
                         />
                     </aside>
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10 mb-3'>
+
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-12 mb-3'>
                     <div className='space-y-5'>
                         <Header color='default' className={'mt-5 xl:mt-0'} text={"My Skills & Interests"} />
                         <BodyText color='default' className='' text={'I have experiences working on Business Analytics, A/B Testing, Data Visualization Design, UX Design, and Front-end Web Development. My niche interest lies in the intersection of the aforementioned topics, particularly in these 3 fields:'} />
@@ -53,16 +54,20 @@ class AboutPage extends React.Component{
                             <SubHeaderText color='default' className='font-bold' text={['Front-end Development']} />
                         </span>
                     </div>
-                    <BodyText color='default' className='' text={
+                    <div className='space-y-5'>
+                        <Header color='default' className={'mt-5 xl:mt-0'} text={"Personal Goal"} />
+                        <BodyText color='default' className='' text={'My long...long...long-term goal is to open up my personal brewery, but really, I seek to become a better problem solver by honing my soft and hard skills. I also enjoy working with people from all walks of lives, inspiring creativity and novel ideas together!'} />
+                        <BodyText color='default' className='' text={
                             [
-                                'Feel free to shoot me an ',
+                                'Therefore, if you would like to get in touch with me, feel free to shoot me an ',
                                 <a key='important-text-1' href='mailto:yitsung.chen95@gmail.com' target='_blank' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>Email</a>,
                                 ' or connect through my ',
                                 <a key='important-text-2' href='https://www.linkedin.com/in/yi-tsung-c-795815b7/' target='_blank' className='font-bold text-light-secondary dark:text-dark-secondary underline underline-offset-2 decoration-1 decoration-wavy'>LinkedIn</a>,
-                                '. Always down for a chat!'
+                                '. I am always down for a chat!'
                             ]
                         }
                         />
+                    </div>
                 </section>
             </>
         )
