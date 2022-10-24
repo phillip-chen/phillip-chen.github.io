@@ -51,7 +51,7 @@ class InfoDesign extends React.Component {
                     <CaseStudySectionText className=''
                         projectTitle = 'The Great Sho' 
                         titleDetails = 'Entertainment Theme of Infographic Design' 
-                        text = {['In this infographic course project, we were been tasked to produce an infographic design featuring an entertainment theme. I decided to design an infographic about an iconic baseball player - Shohei Ohtani. This project also won the ', <a href='http://hussman.unc.edu/news/students-win-big-society-news-design-international-awards' target='_blank' className='underline text-light-secondary dark:text-dark-secondary'>The 3rd place infographic award</a>, ' in the 2022 MSUSND College News Design Contest.']}
+                        text = {['In this infographic course project, we were been tasked to produce an infographic design featuring an entertainment theme. I decided to design an infographic about an iconic baseball player - Shohei Ohtani. This project also won ', <a href='http://hussman.unc.edu/news/students-win-big-society-news-design-international-awards' target='_blank' className='underline text-light-secondary dark:text-dark-secondary'>the 3rd place infographic award</a>, ' in the 2022 MSUSND College News Design Contest.']}
                     />
                     <div>
                         <BodyText color='default' className='mt-1 font-bold underline' text={'Tools:'} />
