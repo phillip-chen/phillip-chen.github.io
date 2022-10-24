@@ -134,6 +134,4 @@ class InfoDesign extends React.Component {
     }
 }
 
-export default InfoDesign
-
-// One of which ("The Great Sho") won ',  <a href='http://hussman.unc.edu/news/students-win-big-society-news-design-international-awards' target='_blank' className='underline text-light-secondary dark:text-dark-secondary'>The 3rd place infographic award</a>, ' in the MSUSND College News Design Contest.'
+export default InfoDesign;
