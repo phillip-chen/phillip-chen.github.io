@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Mockup</title>
+    <!-- google font type - lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Boostrap v5.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- Customized Styling -->
+    <link rel="stylesheet" href="style/dash-header-style.css">
+    <link rel="stylesheet" href="style/dash-body-top-style.css">
+    <link rel="stylesheet" href="style/dash-body-center-style.css">
+    <link rel="stylesheet" href="style/dash-footer-style.css">
+</head>
+<body>
+    <header id="head-nav">
+        <section class="top-info-banner nav justify-content-end">
+            <div class="top-info-container nav justify-content-end">
+                <span>MINI of Raleigh</span>
+                <a href="#" class="top-info-link-container">
+                    <div class="top-info-link-icon question"></div>
+                </a>
+                <a href="#" class="top-info-link-container">
+                    <div class="top-info-link-icon setting"></div>
+                </a>
+            </div>
+        </section>
+        <!-- naivation Section -->
+        <section id="top-nav-banner" class="nav justify-content-center">
+            <!-- navigation links -->
+            <nav id="top-nav-container" class="nav justify-content-center">
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon dash active"></div>
+                </a>
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon people"></div>
+                </a>
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon msg"></div>
+                </a>
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon tag"></div>
+                </a>
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon doc"></div>
+                </a>
+                <a href="#" class="nav-link-container">
+                    <div class="nav-link-icon chart"></div>
+                </a>
+            </nav>
+
+            <!-- icon shadows -->
+            <div id="top-nav-shadow-container" class="nav justify-content-center">
+                <span class="nav-link-icon-shadow"></span>
+                <span class="nav-link-icon-shadow"></span>
+                <span class="nav-link-icon-shadow"></span>
+                <span class="nav-link-icon-shadow"></span>
+                <span class="nav-link-icon-shadow"></span>
+                <span class="nav-link-icon-shadow"></span>
+            </div>
+
+            <!-- current status shape -->
+            <div id="top-nav-indicator-container" class="nav justify-content-center">
+                <div class="nav-link-indicator active"><span></span></div>
+                <div class="nav-link-indicator"><span></span></div>
+                <div class="nav-link-indicator"><span></span></div>
+                <div class="nav-link-indicator"><span></span></div>
+                <div class="nav-link-indicator"><span></span></div>
+                <div class="nav-link-indicator"><span></span></div>
+            </div>
+        </section>
+    </header>
+    <!-- Dashboard Section -->
+    <main>
+        <section id="dash-header" class="navbar">
+            <div class="container-fluid">
+                <h1 class="navbar-brand">Dashboard</h1>
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search">
+                    <span class="search-btn" type="submit"></span>
+                  </form>
+            </div>
+        </section>
+        <section id="dash-background" class="container-fluid">
+            <section id="dash-main-body" class="row">
+                <!-- Top Dashboard Section -->
+                <section class="dash-header-bar row justify-content-between">
+                    <div class="col">
+                        <p class="text-important">ANNOUNCEMENTS</p>
+                    </div>
+                    <div class="col row">
+                        <div class="col justify-content-center">
+                            <p class="text-info">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridcukus mus. Vivamus sagittis lacus</p>
+                        </div>
+                        <div class="col align-self-center">
+                            <img class="page-arrow-icon" src="asset/arrow-icon.svg" alt="arrow icon">
+                            <img class="page-arrow-icon reverse" src="asset/arrow-icon.svg" alt="arrow icon">
+                        </div>      
+                    </div>  
+                </section>
+
+                <!-- Center Dashboard Section -->
+                <section class="core-dash-info container-fluid row">
+                    <!-- Dashboard left section (Tasks & Recommendations) -->
+                    <div class="col left-dash-info">
+
+                        <!-- Dashboard left section - Tasks -->
+                        <div class="row task-container">
+                            <div class="row task-header justify-content-between align-items-center">
+                                <h2 class="col-10 task-info header-2-text">Tasks</h2>
+                                <span class="col-2 dash-icon-setting"></span>
+                            </div>
+                            <div class="row task-details">
+                                <div class="task-item row justify-content-between align-items-center">
+                                    <span class="col task-index">1</span>
+                                    <p class="col task-text">Welcome Contacts</p>
+                                    <div class="col row task-icon-container align-items-center justify-content-around">
+                                        <span class="col task-icon"></span>
+                                        <span class="col task-icon-data">32</span>
+                                    </div>
+                                </div>
+                                <div class="task-item row justify-content-between align-items-center">
+                                    <span class="col task-index">2</span>
+                                    <p class="col task-text">Provide Responses</p>
+                                    <div class="col row task-icon-container align-items-center justify-content-around">
+                                        <span class="col task-icon"></span>
+                                        <span class="col task-icon-data">36</span>
+                                    </div>
+                                </div>
+                                <div class="task-item row justify-content-between align-items-center">
+                                    <span class="col task-index">3</span>
+                                    <p class="col task-text">Review Activities</p>
+                                    <div class="col row task-icon-container align-items-center justify-content-around">
+                                        <span class="col task-icon"></span>
+                                        <span class="col task-icon-data">36</span>
+                                    </div>
+                                </div>
+                                <div class="task-item row justify-content-between align-items-center">
+                                    <span class="col task-index">4</span>
+                                    <p class="col task-text">Reach Out</p>
+                                    <div class="col row task-icon-container align-items-center justify-content-around">
+                                        <span class="col task-icon"></span>
+                                        <span class="col task-icon-data">3</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Dashboard left section - Recommendations -->
+                        <div class="row article-container">
+                            <div class="row article-header justify-content-between align-items-center">
+                                <h2 class="col-lg-10 article-info header-2-text">Recommendations</h1>
+                            </div>
+                            <div class="row article-details">
+                                <div class="article-item row justify-content-between align-items-center">
+                                    <span class="col article-icon-container article"></span>
+                                    <div class="col row article-text-container align-items-center justify-content-around">
+                                        <span class="col article-sub-title">Article</span>
+                                        <span class="col article-title">7 Steps to getting more Fans</span>
+                                    </div>
+                                </div>
+                                <div class="article-item row justify-content-between align-items-center">
+                                    <span class="col article-icon-container article"></span>
+                                    <div class="col row article-text-container align-items-center justify-content-around">
+                                        <span class="col article-sub-title">Article</span>
+                                        <span class="col article-title">Increase traction with more interactions</span>
+                                    </div>
+                                </div>
+                                <div class="article-item row justify-content-between align-items-center">
+                                    <span class="col article-icon-container checklist"></span>
+                                    <div class="col row article-text-container align-items-center justify-content-around">
+                                        <span class="col article-sub-title">Checklist</span>
+                                        <span class="col article-title">Creating a Promotion</span>
+                                    </div>
+                                </div>
+                                <div class="article-item row justify-content-between align-items-center">
+                                    <span class="col article-icon-container tip"></span>
+                                    <div class="col row article-text-container align-items-center justify-content-around">
+                                        <span class="col article-sub-title">Tip</span>
+                                        <span class="col article-title">Share More</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Dashboard right section (Data Charts Section) -->
+
+                    <div class="col right-dash-info">
+                        <div class="row bar-and-pie-charts-container">
+                            <h2 class="charts-title header-2-text row">Analytics</h2>
+                            <div class="bar-chart-container">
+                                <div class="row align-items-center">
+                                    <h3 class="col-12 col-sm-7 bar-chart-sub-title row">ACTIVITY</h3>
+                                    <form class="col-12 col-sm-5 bar-dropdown">
+                                        <img class="drop-down-arrow-icon" src="asset/arrow-icon.svg" alt="arrow icon">
+                                        <select id="bar-chart-date-dropdown" name="bar-chart-date-dropdown">
+                                          <option value="06/28/11 - 07/21/11" selected>06/28/11 - 07/21/11</option>
+                                          <option value="05/27/11 - 06/28/11">05/27/11 - 06/28/11</option>
+                                          <option value="04/26/11 - 05/27/11">04/26/11 - 05/27/11</option>
+                                          <option value="03/25/11 - 04/26/11">03/25/11 - 04/26/11</option>
+                                        </select>
+                                    </form>
+                                </div>
+                                <img src="asset/bar-chart.svg" alt="bar chart" class="bar-chart">
+                            </div>
+                            <div class="pie-chart-container">
+                                <div class="single-pie-chart-container">
+                                    <h3 class="pie-chart-sub-title col-12">CHANNELS</h3>
+                                    <img src="asset/pie-chart-1.svg" alt="pie chart" class="pie-chart">
+                                </div>
+                                <div class="single-pie-chart-container">
+                                    <h3 class="pie-chart-sub-title col-12">REFERRALS</h3>
+                                    <img src="asset/pie-chart-2.svg" alt="pie chart" class="pie-chart">
+                                </div>
+                            </div>
+
+                            <form class="social-media-filter row justify-content-between">
+                                <div class="col">
+                                    <input class="social-media-checkbox align-self-center" type="checkbox" id="social-media-acc-1" name="social-media-acc-1" value="Facebook" checked>
+                                    <label class="social-media-label facebook align-self-center" for="social-media-acc-1">Facebook</label>
+                                </div>
+                                <div class="col">
+                                    <input class="social-media-checkbox" type="checkbox" id="social-media-acc-2" name="social-media-acc-2" value="Twitter" checked>
+                                    <label class="social-media-label twitter" for="social-media-acc-2">Twitter</label>
+                                </div>
+                                <div class="col">
+                                    <input class="social-media-checkbox" type="checkbox" id="social-media-acc-3" name="social-media-acc-3" value="Foursquare">
+                                    <label class="social-media-label foursquare" for="social-media-acc-3">Foursquare</label>
+                                </div>
+                                <div class="col">
+                                    <input class="social-media-checkbox" type="checkbox" id="social-media-acc-4" name="social-media-acc-4" value="Google+">
+                                    <label class="social-media-label google" for="social-media-acc-4">Google+</label>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="container row line-chart-container justify-content-center">
+                            <div class="metrics-box">
+                                <div class="row person-icon green"></div>
+                                <div class="row metrics-banner">
+                                    <img src="asset/ribbon.svg" alt="ribbon picture" class="ribbon left">
+                                    <span class="main metrics-data">75 CONTACTS</span>
+                                    <span class="sub metrics-data">4 INFLUENCERS</span>
+                                    <img src="asset/ribbon.svg" alt="ribbon picture" class="ribbon right">
+                                </div>
+                                <div class="row line-chart green">
+                                    <img src="asset/line-chart-green.svg" alt="line-chart in green color">
+                                </div>
+                            </div>
+
+                            <div class="metrics-box">
+                                <div class="row person-icon orange"></div>
+                                <div class="row metrics-banner">
+                                    <img src="asset/ribbon.svg" alt="ribbon picture" class="ribbon left">
+                                    <span class="main metrics-data">17 CUSTOMERS</span>
+                                    <span class="sub metrics-data">0 INFLUENCERS</span>
+                                    <img src="asset/ribbon.svg" alt="ribbon picture" class="ribbon right">
+                                </div>
+                                <div class="row line-chart orange">
+                                    <img src="asset/line-chart-orange.svg" alt="line-chart in orange color">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Dashboard text banner (with blue bg & left/right arrow keys) -->
+                        <div class="row chart-text-banner-container container">
+                            <div class="row chart-text-banner">
+                                <span class="chart-section-arrow left col">
+                                    <img src="asset/arrow-icon.svg" alt="">
+                                </span>
+                                <p class="col">DID YOU KNOW?<br>Maecenas sed diam eget risus varius blandit sit 
+                                    amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam 
+                                    porta sem malesuada magna mollis euismod.
+                                </p>
+                                <span class="chart-section-arrow right col">
+                                    <img src="asset/arrow-icon.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Bottom Dashboard Section -->
+                <section class="ad-container row justify-content-center container-fluid g-3">
+                    <div class="ad-pic col-12">
+                        <div class="ad-text-group left">
+                            <h3>Watch what <br>you say.</h3>
+                            <span>Message Management</span>
+                        </div>
+                        <img src="asset/ad-pic-1.png">
+                    </div>
+                    <div class="ad-pic col-12">
+                        <div class="ad-text-group center">
+                            <span>See what others are doing with us.</span>
+                        </div>
+                        <img src="asset/ad-pic-2.png">
+                    </div>
+                    <div class="ad-pic col-12">
+                        <div class="ad-text-group right">
+                            <h3>Version 2.0 <br>is coming</h3>
+                        </div>
+                        <img src="asset/ad-pic-3.png">
+                    </div>
+  
+                </section>
+            </section>
+        </section>
+    </main>
+    <!-- Footer Info / Copyright Section -->
+    <footer class="container-fluid row">
+        <section class="footer-main-section row container">
+            <div class="col-12 col-lg-3 row container align-items-center footer-text-left justify-content-center">
+                <span class="col-4">Tutorials</span>
+                <span class="col-4">Support</span>
+                <span class="col-3">Blog</span>
+            </div>
+            <div class="col-lg-9 row container align-items-center footer-right">
+                <div class="col-sm-6 col-lg-8 row container align-items-center footer-text-center">
+                    <span class="col-9">
+                        <span class="customer-name">Ariel Winter</span> likes your
+                        <span class="marketing-plan">Win A Cooper Sweepstakes</span> Promotion
+                    </span>
+                    <a href="#head-nav" class="arrow-up col-3"></a>
+                </div>
+                <div class="col-sm-6 col-lg-4 row container align-items-center footer-link-group-container">
+                    <div class="col-6 row container align-items-center justify-content-center account-container">
+                        <img src="asset/footer-acc-icon.png" alt="account picture in the fotter section" class="acc-icon col-5">
+                        <span class="col-4 logout-text">Logout</span>
+                    </div>
+                    <div class="col-6 row container align-items-center justify-content-around social-media-container">
+                        <span class="social-media-icon fb"></span>
+                        <span class="social-media-icon tw"></span>
+                        <span class="social-media-icon fs"></span>
+                        <span class="social-media-icon yt"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    </body>
+</html>

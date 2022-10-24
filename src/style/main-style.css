@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root{
+    --primary-color: #20293A;
+    --secondary-color: #6371EA;
+    --tertiary-color: #ffffff;
+}
+
+.dark{
+    --primary-color: #ffffff;
+    --secondary-color: #63D0EA;
+    --tertiary-color: #20293A;
+} */
+
+/* delay 4.5s */
+.animate__delay-head-init{
+    animation-delay: calc(var(--animate-delay)*3.5);
+}
+/* .animate__delay-head-2nd{
+    animation-delay: calc(var(--animate-delay)*3.6);
+}
+.animate__delay-head-3rd{
+    animation-delay: calc(var(--animate-delay)*3.7);
+}
+.animate__delay-head-4th{
+    animation-delay: calc(var(--animate-delay)*3.8);
+}
+.animate__delay-head-5th{
+    animation-delay: calc(var(--animate-delay)*3.9);
+} */
+.animate__delay-banner-init{
+    animation-delay: calc(var(--animate-delay)*4);
+}
+/* .animate__delay-banner-2nd{
+    animation-delay: calc(var(--animate-delay)*5.8);
+}
+.animate__delay-banner-3rd{
+    animation-delay: calc(var(--animate-delay)*5.9);
+}
+.animate__delay-banner-4th{
+    animation-delay: calc(var(--animate-delay)*6.0);
+} */
+.animate__delay-body-init{
+    animation-delay: calc(var(--animate-delay)*4.6);
+}
+/* .animate__delay-body-2nd{
+    animation-delay: calc(var(--animate-delay)*4.85);
+} */
+.animate__delay-banner{
+    animation-delay: calc(var(--animate-delay)*.1);
+}
+.animate__delay-body{
+    animation-delay: calc(var(--animate-delay)*.1);
+}
+
+
+body{
+    background: #f5f5f5;
+    transition: background .25s;
+}
+
+.darkbg{
+    background: #1C2131;
+}
+
+header{
+    z-index: 100;
+    transition: background .25s;
+}
+
+.home-logo-container{
+    transition: background .25s;
+}
+
+.home-btn-logo{
+    mask: url('../asset/logo.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/logo.svg') no-repeat center / contain;
+    cursor: pointer;
+}
+
+
+.btn{
+    transition: .05s;
+}
+
+.btn:hover{
+    transition: .05s;
+}
+
+
+.github.link{
+    mask: url('../asset/github.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/github.svg') no-repeat center / contain;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.linkedin.link{
+    mask: url('../asset/linkedin.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/linkedin.svg') no-repeat center / contain;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.email.link{
+    mask: url('../asset/email.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/email.svg') no-repeat center / contain;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.filter-container{
+    z-index: 1;
+}
+
+.filter-arrow{
+    mask: url('../asset/arrow.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/arrow.svg') no-repeat center / contain;
+    top: 40%;
+    z-index: -1;
+}
+
+.project-card{
+    transition: background .3s;
+}
+.project-img{
+    transition: background .25s;
+}
+
+.section-jumper-arrow{
+    mask: url('../asset/arrow.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/arrow.svg') no-repeat center / contain;   
+}
+.section-jumper-link{
+    z-index: 999;
+}
+
+.section-jumper-link{
+    transition: background .5s;
+}
+
+footer{
+    position: relative;
+    z-index: 5;
+}
+
+.to-top-btn{
+    z-index: 99999;
+}
+
+.case-study-w-bg-section{
+    transition: background .25s;
+}
+
+
+@media (min-width:1024px) {
+    .section-jumper-link{
+        width: auto;
+        background: inherit;
+        color: inherit;
+        position: fixed;
+        right: 1.2%;
+        bottom: 5rem;
+        flex-direction: column;
+    }
+    .section-jumper-arrow{
+        width: 1.25rem;
+        margin-bottom: .75rem;
+        margin-right: 0;
+    }
+    .section-jumper-link:hover .section-jumper-arrow{
+        margin-bottom: 1rem;
+        transition: margin-bottom .25s;
+    }
+}

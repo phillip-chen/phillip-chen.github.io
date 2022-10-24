@@ -1,0 +1,125 @@
+/* Logo Styling */
+#init-animation-logo{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: shrink .3s ease-in-out;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+    z-index: 999999;
+  }
+
+  .letter-ele{
+    stroke-width: 10px;
+  }
+  
+  
+  /* Logo Components Animation */
+  .c-letter{
+    stroke-dasharray: 754.0883178710938;
+    animation: 1s draw-c ease-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .y-letter{
+    stroke-dasharray: 754.0883178710938;
+    animation: 1.75s draw-y ease-in;
+  }
+  
+  .t-letter{
+    stroke-dasharray: 754.0883178710938;
+    animation: 2.2s draw-t ease-in;
+  }
+  
+  .p-letter{
+    stroke-dasharray: 199.66139221191406;
+    animation: 2.2s draw-p ease-in;
+  }
+  .n-letter{
+    stroke-dasharray: 99.00560760498047;
+    animation: 2.2s draw-n ease-in;
+  }
+  .outline{
+    stroke-dasharray: 754.0883178710938;
+    stroke-width: 8;
+    outline-style: none;
+    animation: 2.85s strokeSvg ease-in;
+  }
+  
+  /* Logo Components Animation Function Definition*/
+  @keyframes draw-c {
+    0%{
+      stroke-dashoffset: 754.0883178710938;
+    }
+    100%{
+        stroke-dashoffset: 1508.1766357421875;
+    }
+  }
+  
+  @keyframes draw-y {
+    0%{
+        stroke-dashoffset: 754.0883178710938;
+    }
+    45%{
+        stroke-dashoffset: 754.0883178710938;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes draw-t {
+    0%{
+        stroke-dashoffset: 754.0883178710938;
+    }
+    55%{
+        stroke-dashoffset: 754.0883178710938;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes draw-p {
+    0%{
+        stroke-dashoffset: 199.66139221191406
+    }
+    75%{
+        stroke-dashoffset: 199.66139221191406
+    }
+    100%{
+        stroke-dashoffset: 399.3227844238281;
+    }
+  }
+  
+  @keyframes draw-n {
+    0%{
+        stroke-dashoffset: 99.00560760498047;
+    }
+    75%{
+        stroke-dashoffset: 99.00560760498047;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+  }
+  
+  @keyframes strokeSvg {
+    0%{
+        stroke-opacity: 0;
+    }
+    70%{
+        stroke-opacity: 0;
+    }
+    100%{
+      stroke-opacity: 1;
+    }
+  }
+  
+  @keyframes shrink{
+    to{
+       transform: scale(0);
+       opacity:0;
+    }
+  }

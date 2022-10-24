@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.row, .col{
+    margin: 0;
+    padding: 0;
+    /* padding: 15px 0 15px 0; */
+}
+.row>*{
+    padding: 0;
+}
+
+.top-info-banner{
+    background: linear-gradient(0deg, #1D85D8, #2498F4);
+    padding: 1rem 8.5%;
+}
+.top-info-container{
+    color: #fff;
+}
+.top-info-container>span{
+    font-size: clamp(0.625rem, 3vw, 0.75rem);
+    padding: 0 0.75rem;
+    border-right: 1px solid #1C85D8;
+    cursor: pointer;
+}
+
+.top-info-link-container{
+    padding: 0 12px;
+    border-right: 1px solid #1C85D8;
+}
+.top-info-link-container:last-of-type{
+    border-right: none;
+}
+
+.top-info-link-icon{
+    width: clamp(16px, 3vw, 20px);
+    height: clamp(16px, 3vw, 20px);
+}
+.top-info-link-icon.question{
+    mask: url('../asset/header-question-icon.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-question-icon.svg') no-repeat center / contain;
+    background: #fff;
+}
+.top-info-link-icon.setting{
+    mask: url('../asset/header-setting-icon.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-setting-icon.svg') no-repeat center / contain;
+    background: #fff;
+}
+
+.top-info-link-icon:hover{
+    background: #134670; 
+}
+.top-info-container>span:hover{
+    color: #134670;
+}
+
+
+
+
+#top-nav-banner{
+    padding: 0 10% 0px;
+    align-items: stretch;
+    background: url('../asset/header-blue-stripe-bg.png') no-repeat 50% 75% / cover;
+    position: relative;
+}
+
+#top-nav-container{
+    margin-top: 1.5625rem;
+}
+
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+/* anchor tag that holds the navigation icon & shadow */
+.nav-link-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin-top: 100px;
+}
+.nav-link-icon-shadow{
+    background: url('../asset/header-nav-icon-shadow.svg') no-repeat center / contain;
+    width: clamp(18px, 8vw, 62px);
+    height: 8px;
+    margin: 15px 1rem 0;
+    filter: blur(3px);
+}
+
+
+/* Old Version Top Navigation Icon Hover effect */
+/* .nav-link-icon:hover{
+    filter: brightness(0) saturate(100%) invert(77%) sepia(23%) saturate(893%) hue-rotate(86deg) brightness(97%) contrast(90%);
+} */
+
+.nav-link-container{
+    width: clamp(18px, 8vw, 62px);
+    height: clamp(27px, 6.9vw, 53px);
+    margin: 0 1rem;
+    justify-content: center;
+}
+
+/* Detailed Navigation Icon Styling (customized) */
+/* css clamp function using benchmark breakpoints from device width */ 
+/* min: 320px ~ max 768px, defining a responsive sizing per icon */
+
+.nav-link-icon.dash{
+    display: inline-block;
+    width: clamp(22px, 6.9vw, 53px);
+    height: clamp(22px, 6.9vw, 53px);
+    /* background: url('../asset/header-nav-icon-dash.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-dash.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-dash.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+}
+
+
+.nav-link-icon.people{
+    display: inline-block;
+    width: clamp(25.6px, 8vw, 62px);
+    height: clamp(16.67px, 5.2vw, 40px);
+    /* background: url('../asset/header-nav-icon-people.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-people.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-people.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+}
+.nav-link-icon.msg{
+    display: inline-block;
+    width: clamp(23px, 7.16vw, 55px);
+    height: clamp(18.75px, 5.86vw, 45px);
+    /* background: url('../asset/header-nav-icon-msg.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-msg.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-msg.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+}
+.nav-link-icon.tag{
+    display: inline-block;
+    width: clamp(20px, 6.25vw, 48px);
+    height: clamp(20px, 6.25vw, 48px);
+    /* background: url('../asset/header-nav-icon-tag.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-tag.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-tag.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+}
+.nav-link-icon.doc{
+    display: inline-block;
+    width: clamp(18.75px, 5.86vw, 45px);
+    height: clamp(20px, 6.25vw, 48px);
+    /* background: url('../asset/header-nav-icon-doc.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-doc.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-doc.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+}
+.nav-link-icon.chart{
+    display: inline-block;
+    width: clamp(18px, 5.599vw, 43px);
+    height: clamp(20px, 6.25vw, 48px);
+    /* background: url('../asset/header-nav-icon-chart.svg') no-repeat center / contain; */
+    mask: url('../asset/header-nav-icon-chart.svg') no-repeat center / contain;
+    -webkit-mask: url('../asset/header-nav-icon-chart.svg') no-repeat center / contain;
+
+    background:linear-gradient(0deg, #1E87DA, #229EFF);
+
+}
+
+/* Final Version Top Navigation Icon Hover effect */
+.nav-link-icon:hover{
+    background:linear-gradient(0deg, #93F8B8, #33CC66);
+}
+.nav-link-container>.active{
+    background:linear-gradient(0deg, #93F8B8, #33CC66);
+}
+
+
+#top-nav-indicator-container{
+    margin-top: 0rem;
+}
+
+.nav-link-indicator{
+  width: clamp(18px, 8vw, 62px);
+  height: 20px;
+  margin: 0px 1rem 0;
+  /* padding: 0 .84375rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-link-indicator.active > span{
+    width: 0; 
+    height: 0; 
+    border-left: clamp(5px, 4vw, 17.5px) solid transparent;
+    border-right: clamp(5px, 4vw, 17.5px) solid transparent;
+    border-bottom: clamp(2px, 2vw, 10px) solid #fff;
+  }
+
+
+/* Responsive Styling */
+@media(max-width: 768px){
+    .nav-link-container{
+        margin: 0 .5rem;
+    }
+    .nav-link-icon-shadow{
+        margin: 10px .5rem 0;
+    }
+    .nav-link-indicator{
+        margin: 0px .5rem 0;
+    }
+    .nav-link-indicator{
+        margin: 0px .5rem 0;
+    }
+}
+
+@media(max-width: 1200px){
+    .top-info-banner{
+        padding: 1rem 15px;
+    }
+}
