@@ -22,7 +22,7 @@ class Toshiba extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 xl:mt-40 2xl:mt-10%'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5%'>
                     <aside className='w-90% space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - Toshiba - UX Intern'} />
