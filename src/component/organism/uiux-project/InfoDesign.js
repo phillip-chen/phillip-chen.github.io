@@ -43,7 +43,7 @@ class InfoDesign extends React.Component {
                             {title:'Time', text:'2021 - 2022'},
                             {title:'Responsibility', text:'Research, Ideation, Information Design'},
                             {title:'Tools', text:'Excel, Adobe Illustrator, Adobe Photoshop'},
-                            {title:'Overview', text:['A collection of information design projects I did during my time at UNC Chapel Hill, demonstrating my ability to design a powerful data-driven storytelling']},
+                            {title:'Overview', text:['A collection of the information design projects I did during my time at UNC Chapel Hill, demonstrating my ability to design a powerful data-driven storytelling']},
 
                         ]} className='space-y-5' projectTitle = 'Information-Driven Storytelling' titleDetails = '2021-2022 Collection of Information Design Projects' />
                 </section>
@@ -56,8 +56,8 @@ class InfoDesign extends React.Component {
                     <div>
                         <BodyText color='default' className='mt-1 font-bold underline' text={'Tools:'} />
                         <ul className='mt-6 list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:mt-4 lg:space-y-2 font-body-text'>
-                            <li><span className='font-bold'>MS Excel:</span> Using spreadsheet to filter and generate simple charts to look for insightful stories.</li>
-                            <li><span className='font-bold'>Adobe Illustrator:</span> Design vector graphics including all the data charts, and other vector graphics.</li>
+                            <li><span className='font-bold'>MS Excel:</span> Used spreadsheet to filter and generate data charts first to look for insightful stories.</li>
+                            <li><span className='font-bold'>Adobe Illustrator:</span> Designed vector graphics, including data charts and any other graphical assets.</li>
                         </ul>
                     </div>
                     <div className='flex flex-row space-x-5'>
@@ -84,8 +84,8 @@ class InfoDesign extends React.Component {
                     <div>
                         <BodyText color='default' className='mt-1 font-bold underline' text={'Tools:'} />
                         <ul className='mt-6 list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:mt-4 lg:space-y-2 font-body-text'>
-                            <li><span className='font-bold'>Adobe Photoshop:</span> Using smudge, dodge, and burn tools to add organic texture to the worm and the background.</li>
-                            <li><span className='font-bold'>Adobe Illustrator:</span> Design vector graphics including information graphics, and worm graphics.</li>
+                            <li><span className='font-bold'>Adobe Photoshop:</span> Used smudge, dodge, and burn tools to add organic texture to the worm and the background.</li>
+                            <li><span className='font-bold'>Adobe Illustrator:</span> Designed all vector graphics of all the worm types and individual information.</li>
                         </ul>
                     </div>
                     <div className='flex flex-row space-x-5'>
