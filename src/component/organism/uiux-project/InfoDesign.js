@@ -84,8 +84,8 @@ class InfoDesign extends React.Component {
                     <div>
                         <BodyText color='default' className='mt-1 font-bold underline' text={'Tools:'} />
                         <ul className='mt-6 list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:mt-4 lg:space-y-2 font-body-text'>
-                            <li><span className='font-bold'>Adobe Photoshop:</span> Used smudge, dodge, and burn tools to add organic texture to the worm and the background.</li>
-                            <li><span className='font-bold'>Adobe Illustrator:</span> Designed all vector graphics of all the worm types and individual information.</li>
+                            <li><span className='font-bold'>Adobe Photoshop:</span> Used smudge, dodge, and burn tools to add organic texture to the graphics and background.</li>
+                            <li><span className='font-bold'>Adobe Illustrator:</span> Designed vector graphics of all the worm types and individual information.</li>
                         </ul>
                     </div>
                     <div className='flex flex-row space-x-5'>
