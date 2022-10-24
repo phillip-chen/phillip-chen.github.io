@@ -1,7 +1,6 @@
 import React from 'react';
 import ProjectTag from '../atom/ProjectTag';
 import SubHeader from '../atom/SubHeaderText';
-import BodyText from '../atom/BodyText';
 import SmallText from '../atom/SmallText';
 import Button from '../atom/Button';
 // import all project's home photos
@@ -10,10 +9,7 @@ import chatbot from '../../asset/chatbot/home-img.png';
 import arGame from '../../asset/ar-game/home-img.png';
 import infoDesign from '../../asset/info-design/home-img.png';
 // Dev Project
-import cvKiosk from '../../asset/dev-project/cv-kiosk-home-img.svg';
-import movieDash from '../../asset/dev-project/movie-project-home-img.svg';
-import webDash from '../../asset/dev-project/web-dash-design-home-img.svg';
-import cvKioskImg from '../../asset/dev-project/cv-kiosk-home-img.svg';
+import cvKioskImg from '../../asset/dev-project/cv-kiosk-home-img.png';
 import movieDashImg from '../../asset/dev-project/movie-viz-project.png';
 import webDashImg from '../../asset/dev-project/rwd-dashboard-project.png';
 import colaWarImg from '../../asset/dev-project/cola-war-project.png';
@@ -69,7 +65,7 @@ class ProjectCard extends React.Component{
                             <SmallText color='default' className="mb-0 mt-2" text = {this.props.projectSubTitle} />
                             <SubHeader color='default' className="mb-2 font-bold" text={this.props.projectTitle} />
                             <div className='w-full self-center inline-block xl:hidden'>
-                                <img src= {imgArr[this.props.projectName]} alt={this.props.projectName + ' photo'} className='rounded-md mx-auto project-img' />
+                                <img src= {imgArr[this.props.projectName]} alt={this.props.projectName + ' photo'} className='rounded-md mx-auto project-img w-full' />
                             </div>
                             <ProjectTag className='mb-4 mt-4 xl:mt-0 text-xs sm:text-sm' tags = {this.props.projectTags} />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='mb-3' text={this.props.projectDetails} />
