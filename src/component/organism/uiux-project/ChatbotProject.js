@@ -199,23 +199,23 @@ class Chatbot extends React.Component {
                     </div>
                     <div>
                         <BodyText color='default' className='font-bold' text = {'Flow Summary'} />
-                        <img className='w-full md:w-90% lg:w-80% bg-light-tertiary-elevation bg-opacity-60 rounded-md mt-2' src={gameFlow} alt='summary of the game flow' />
+                        <img className='w-full bg-light-tertiary-elevation bg-opacity-60 rounded-md mt-2' src={gameFlow} alt='summary of the game flow' />
                     </div>
                     <div>
                         <CaseStudySectionTitle 
                             projectTitle = 'Storyboard' 
                             titleDetails = 'Visualize the Interactions' 
                         />
-                        <div className='space-y-1 mt-2 mb-4'>
-                            <img className='rounded-md' src={storyboard1} alt='First 3 frames of the storyboard' />
+                        <div className='space-y-1 mt-2 mb-4 w-full'>
+                            <img className='w-full rounded-md' src={storyboard1} alt='First 3 frames of the storyboard' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='' text={'1. With the chatbot persona introduces the story context, the player sets on a scavenger hunt in downtown Chapel Hill.'} />
                         </div>
                         <div className='space-y-1 mb-4'>
-                            <img className='rounded-md' src={storyboard2} alt='Middle 3 frames of the storyboard' />
+                            <img className='w-full rounded-md' src={storyboard2} alt='Middle 3 frames of the storyboard' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='' text={'2. Player arrives at the local business based on the game clue/hint, chatbot then presents a series of 3 tasks'} />
                         </div>
                         <div className='space-y-1'>
-                            <img className='rounded-md' src={storyboard3} alt='Final 3 frames of the storyboard' />
+                            <img className='w-full rounded-md' src={storyboard3} alt='Final 3 frames of the storyboard' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='' text={'3. Player complete the tasks that practices HCD concepts while taking notes to enhance the learning process.'} />
                         </div>
                     </div>
@@ -235,7 +235,7 @@ class Chatbot extends React.Component {
                             <li><span className='font-medium'>1</span> Infographic template of the task - <span className='font-medium underline'>Ask</span> for all storylines.</li>
                             <li><span className='font-medium'>3</span> Illustration posters for the local business in the storyline</li>
                         </ul>
-                        <img className='mt-6 bg-light-tertiary-elevation rounded-md' src={designAsset} alt='Final 3 frames of the storyboard' />
+                        <img className='mt-6 bg-light-tertiary-elevation rounded-md w-full' src={designAsset} alt='Final 3 frames of the storyboard' />
                     </div>
                 </section>
                 
