@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.67b1a484.css",
-    "main.js": "/static/js/main.9cf5f6dd.js",
+    "main.js": "/static/js/main.3c986f5a.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
-    "static/media/design-asset.svg": "/static/media/design-asset.d4cf326ed074511971b265dac14833d0.svg",
+    "static/media/design-asset.svg": "/static/media/design-asset.be9a31d421b182dfcceebe70d67c299d.svg",
     "static/media/infographic-worm.png": "/static/media/infographic-worm.0c8c519b62cc29656a54.png",
     "static/media/worm-moodboard.png": "/static/media/worm-moodboard.12199440ace24d54f2b0.png",
     "static/media/sports-sketch.png": "/static/media/sports-sketch.61f52bbbce3f62b3fa5b.png",
@@ -38,10 +38,10 @@
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
     "main.67b1a484.css.map": "/static/css/main.67b1a484.css.map",
-    "main.9cf5f6dd.js.map": "/static/js/main.9cf5f6dd.js.map"
+    "main.3c986f5a.js.map": "/static/js/main.3c986f5a.js.map"
   },
   "entrypoints": [
     "static/css/main.67b1a484.css",
-    "static/js/main.9cf5f6dd.js"
+    "static/js/main.3c986f5a.js"
   ]
 }
