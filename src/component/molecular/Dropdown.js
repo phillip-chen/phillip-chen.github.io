@@ -1,4 +1,5 @@
 import React from 'react'
+import BodyText from '../atom/BodyText';
 
 class Dropdown extends React.Component{
     constructor(props){
@@ -44,7 +45,8 @@ class Dropdown extends React.Component{
 
     render(){
         return(
-            <div className="filter-container w-40 relative font-body-text">
+            <div className="filter-container w-44 relative font-body-text">
+                {/* <BodyText className='font-bold absolute top-15% filter-text' text='Filter :' /> */}
                 <select onChange={this.filter} id='filter' className="cursor-pointer w-full px-2.5 py-1 text-light-primary dark:text-dark-primary bg-transparent border rounded-sm shadow-sm outline-none text-base appearance-none">
                     <option value={'uiux-project'}>UI/UX Design</option>
                     <option value={'dev-project'}>UI Development</option>

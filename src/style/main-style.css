@@ -115,6 +115,14 @@ header{
     transition: .25s;
 }
 
+#filter{
+    transition: border-radius .5s;
+}
+
+/* .filter-text{
+    left:-3.5rem;
+} */
+
 .filter-container{
     z-index: 1;
 }
@@ -123,6 +131,7 @@ header{
     mask: url('../asset/arrow.svg') no-repeat center / contain;
     -webkit-mask: url('../asset/arrow.svg') no-repeat center / contain;
     top: 40%;
+    right:8px;
     z-index: -1;
 }
 
