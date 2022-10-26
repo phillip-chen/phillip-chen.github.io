@@ -154,13 +154,13 @@ class ARProject extends React.Component {
                         </ul>
                         <div className='flex flex-col lg:flex-row justify-between mt-4 space-y-4 lg:space-y-0'>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Augmented', <br key='line-brk' /> ,'Reality']} />
+                                <BodyText  color='default' className='font-bold' text={['Augmented', <br key='line-brk' /> ,'Reality']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Facial', <br key='line-brk' /> ,'Recognition']} />
+                                <BodyText color='default' className='font-bold' text={['Facial', <br key='line-brk' /> ,'Recognition']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Deep', <br key='line-brk' /> ,'Fake']} />
+                                <BodyText color='default' className='font-bold' text={['Deep', <br key='line-brk' /> ,'Fake']} />
                             </span>
                         </div>
                         <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary mt-6'>
@@ -168,16 +168,16 @@ class ARProject extends React.Component {
                         </ul>
                         <div className='flex flex-col lg:flex-row justify-between mt-4 space-y-4 lg:space-y-0'>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-20% text-center py-4 flex items-center justify-center'>
-                                <SubHeaderText color='default' className='font-bold' text={['Pleasant', <br key='line-brk' /> ,'Surprise']} />
+                                <BodyText color='default' className='font-bold' text={['Pleasant', <br key='line-brk' /> ,'Surprise']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-20% text-center py-4 flex items-center justify-center'>
-                                <SubHeaderText color='default' className='font-bold' text={['Collectible', <br key='line-brk' /> ,'Experience']} />
+                                <BodyText color='default' className='font-bold' text={['Collectible', <br key='line-brk' /> ,'Experience']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-20% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Ehance', <br key='line-brk' /> ,'Historical', <br key='line-brk-2' />, 'Value']} />
+                                <BodyText color='default' className='font-bold' text={['Ehance', <br key='line-brk' /> ,'Historical', <br key='line-brk-2' />, 'Value']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-20% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Reward all', <br key='line-brk' /> ,'Levels of', <br key='line-brk-2' />, 'Engagement']} />
+                                <BodyText color='default' className='font-bold' text={['Reward all', <br key='line-brk' /> ,'Levels of', <br key='line-brk-2' />, 'Engagement']} />
                             </span>
                         </div>
                     </div>

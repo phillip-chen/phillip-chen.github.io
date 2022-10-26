@@ -44,13 +44,13 @@ class AboutPage extends React.Component{
                     </div>
                     <div className='flex flex-col lg:flex-row justify-between mt-4 space-y-4 lg:space-y-0'>
                         <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4 flex items-center justify-center'>
-                            <SubHeaderText color='default' className='font-bold' text={['UI/UX Design']} />
+                            <BodyText color='default' className='font-bold' text={['UI/UX Design']} />
                         </span>
                         <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4 flex items-center justify-center'>
-                            <SubHeaderText color='default' className='font-bold' text={['Data Visualization']} />
+                            <BodyText color='default' className='font-bold' text={['Data Visualization']} />
                         </span>
                         <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                            <SubHeaderText color='default' className='font-bold' text={['Web Development']} />
+                            <BodyText color='default' className='font-bold' text={['Web Development']} />
                         </span>
                     </div>
                     <div className='space-y-5'>
