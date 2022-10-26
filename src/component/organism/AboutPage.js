@@ -1,5 +1,4 @@
 import React from 'react';
-import ToTopBtn from '../atom/ToTopBtn';
 import Header from '../atom/HeaderText';
 import SubHeaderText from '../atom/SubHeaderText';
 import BodyText from '../atom/BodyText';
@@ -38,7 +37,7 @@ class AboutPage extends React.Component{
                     </aside>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10 2xl:py-20 2xl:mb-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-10 2xl:mb-10'>
                     <div className='space-y-5'>
                         <Header color='default' className={'mt-5 xl:mt-0'} text={"My Skills & Interests"} />
                         <BodyText color='default' className='' text={'I have experiences working on Business Analytics, A/B Testing, Data Visualization Design, UX Design, and Front-end Web Development. My niche interest lies in the intersection of these 3 fields in particular:'} />
@@ -51,7 +50,7 @@ class AboutPage extends React.Component{
                             <SubHeaderText color='default' className='font-bold' text={['Data Visualization']} />
                         </span>
                         <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                            <SubHeaderText color='default' className='font-bold' text={['Front-end Development']} />
+                            <SubHeaderText color='default' className='font-bold' text={['Web Development']} />
                         </span>
                     </div>
                     <div className='space-y-5'>

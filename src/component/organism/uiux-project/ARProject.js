@@ -52,7 +52,7 @@ class ARProject extends React.Component {
                     ]} className='space-y-5' projectTitle = 'Design a Luxrious Experience' titleDetails = '2022 - UNC BSI Lab - Client Sponsored Project' />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 mt-10'>
                     <aside className='rounded-md'>
                         <div className='inline-block lg:hidden mb-2'>
                             <CaseStudySectionTitle 
@@ -78,7 +78,7 @@ class ARProject extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-16'>
                     <CaseStudySectionText className=''
                             projectTitle = 'The Context' 
                             titleDetails = 'How it begins' 
@@ -91,7 +91,7 @@ class ARProject extends React.Component {
                     />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-16'>
                     <aside>
                         <CaseStudySectionTitle 
                                 projectTitle = 'Define the Problems' 
@@ -114,7 +114,7 @@ class ARProject extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-12'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-12'>
                     <div>
                         <CaseStudySectionText className=''
                                 projectTitle = 'Ideation Process' 
@@ -147,7 +147,7 @@ class ARProject extends React.Component {
                         </aside>
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text = {'Final Iteration'} />
+                        <SubHeaderText color='default' className='font-bold' text = {'Final Iteration'} />
                         <BodyText color='default' className='mt-2 font-thin' text={'Upon discussion, we decided to leverage Augmented Reality (AR) to produce a scavenger hunt featuring a story that engage with the hotel\'s indoor facilities while enhancing the cultural & historical value of the hotel\'s location, Washington D.C.'} />
                         <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary mt-6'>
                             <li>Three Emerging Technologies</li>
@@ -183,7 +183,7 @@ class ARProject extends React.Component {
                     </div>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-16'>
                     <div className='flex flex-col lg:flex-row'>
                         <aside className='space-x-0 w-80% xl:w-60%'>
                             <div className='inline-block lg:hidden'>
@@ -211,20 +211,20 @@ class ARProject extends React.Component {
                     <div className='flex flex-col lg:flex-row items-center'>
                         <aside className='space-x-0 w-full lg:w-60%'>
                             <div className='inline-block lg:hidden'>
-                                <BodyText color='default' className='font-bold' text = {'Field Research'} />
+                                <SubHeaderText color='default' className='font-bold' text = {'Field Research'} />
                             </div>
                             <img className='mt-4 xl:mt-0' src={floor} alt='hotel floor plan screenshot' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-2' text={'The lusxrious hotel lobby floor plan'} />
                         </aside>
                         <aside className='flex flex-col px-0 lg:px-4  space-y-2'>
                             <div className='hidden lg:inline-block'>
-                                <BodyText color='default' className='font-bold' text = {'Field Research'} />
+                                <SubHeaderText color='default' className='font-bold' text = {'Field Research'} />
                             </div>
                             <BodyText color='default' className='font-thin' text={'We also did a field research to get the floor plan of the hotel\'s lobby, which helps us get a better sense of the indoor structure to plan out the proper game path.'} />
                         </aside>
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text = {'Interaction Flow Summary'} />
+                        <SubHeaderText color='default' className='font-bold' text = {'Interaction Flow Summary'} />
                         <BodyText color='default' className='font-thin mt-2' text={['Our game consists of 11 steps of interactions to achieve the reward ( ', <a href={storyScript} target='_blank' key='link-story-2' className='text-light-secondary dark:text-dark-secondary underline'>details are displayed in the story script</a>,' ), where we designed to cater for different level of interactions based on different guest personas.']} />
                         <div className='space-y-4 mt-4'>
                             <img className='rounded-md' src={flow} alt='screenshot of the partial story script' />
@@ -233,7 +233,7 @@ class ARProject extends React.Component {
                     </div>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20'>
                     <section>
                         <CaseStudySectionTitle 
                             projectTitle = 'Polish the Game Experience' 
@@ -254,7 +254,7 @@ class ARProject extends React.Component {
                         <aside className='flex flex-col order-1 xl:order-2 items-center'>
                             <div className='space-y-6'>
                                 <div className='mt-0 xl:mt-4'>
-                                    <BodyText color='default' className='font-bold' text = {'Final Solution Samples & Scalability'} />
+                                    <SubHeaderText color='default' className='font-bold' text = {'Final Solution Samples & Scalability'} />
                                     <BodyText color='default' className='font-thin mt-2' text={'Due to NDA, we can only show partial concept screens here. We were using 8th Wall to build the WebAR experience in mobile interfaces.'} />
                                 </div>
                                 <BodyText color='default' className='font-thin' text={'Our solution also consider the scalability of the game, planning to have multiple luxrious hotel branches join to build their own AR games and assemble a massive scavenger hunting map.'} />
@@ -267,21 +267,20 @@ class ARProject extends React.Component {
                         </aside>
                     </section>
 
-                    <section className='mt-28 space-y-6'>
+                    <section className='mt-28 space-y-10'>
                         <div>
                             <CaseStudySectionTitle 
                                 projectTitle = 'My Contribution' 
                                 titleDetails = 'Secure the gateway experience' 
                             />
-                            <BodyText color='default' className='mt-1 font-thin' text={'While my work in this project focused heavily on researching and implementing the facial recognition algorithm, I also paid huge attention on how to fulfill a better gateway experience for the hotel guests.'} />
+                            <BodyText color='default' className='mt-1 font-thin' text={'I focused heavily on researching and implementing the proper facial recognition algorithm to fulfill a better gateway experience for the hotel guests. Several questions to answer while testing different facial recognition algorithms including:'} />
                         </div>
-                        <BodyText color='default' className='mt-1 font-thin' text={['Several questions to answer while testing different facial recognition algorithms including:']} />
-                        <ul className='mt-6 list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:mt-5 lg:space-y-2 font-body-text'>
+                        <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:space-y-2 font-body-text'>
                             <li><span className='font-bold'>Detection threshold:</span> How to tell if the guests are walking by or staring at the portrait in close proximity?</li>
                             <li><span className='font-bold'>Engaging Time:</span> How long of a staring from a guest makes sense to further triggers the next action?</li>
                             <li><span className='font-bold'>Model Accuracy:</span> Can the facial detection algorithm remain a stable accuracy while more faces show up?</li>
                         </ul>
-                        <BodyText color='default' className='mt-1 font-thin' text={['To optimize the interaction, I researched various algorithms (tiny face detection, tensorflow, eye glazing technologies...etc) and tested different parameters with my teammate to ensure a workable prototype while demonstrating to the client.']} />
+                        <BodyText color='default' className='mt-1 font-thin' text={['To optimize the experience, we contantly tested our solution and went through multiple iterations to ensure a bug-free prototype while demonstrating to the client.']} />
                         <div>
                             <img className='' src={cv} alt='photos of how I design and test the facial recognition kiosk' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-4' text={'Photos of me and my other partner working on the facial recognition kiosk development and testing'} />
@@ -289,7 +288,7 @@ class ARProject extends React.Component {
                     </section>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
@@ -299,7 +298,7 @@ class ARProject extends React.Component {
 
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-20 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 
@@ -308,13 +307,13 @@ class ARProject extends React.Component {
                     </div>
                     <ul className='flex flex-col xl:flex-row justify-between space-y-6 xl:space-y-0'>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/toshiba'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Optimize the Checkout Experience'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/toshiba'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Optimize the Checkout Experience'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/chatbot'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Educational Design Teaching UX'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/chatbot'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Educational Design Teaching UX'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
                         </li>
                     </ul>
                 </section>

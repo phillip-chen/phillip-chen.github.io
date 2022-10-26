@@ -5,6 +5,7 @@ import CaseStudySectionText from '../../molecular/CaseStudySectionText';
 import SmallText from '../../atom/SmallText';
 import HeaderText from '../../atom/HeaderText';
 import SubHeaderText from '../../atom/SubHeaderText';
+import BodyText from '../../atom/BodyText';
 import {Link} from 'react-router-dom';
 // import all project's assets
 import toshibaHomeImg from '../../../asset/toshiba/home-img.png';
@@ -22,8 +23,8 @@ class Toshiba extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
-                    <aside className='w-90% space-x-0'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 mt-24 sm:mt-40'>
+                    <aside className='w-full laptop-lg:w-50% space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - Toshiba - UX Intern'} />
                             <HeaderText color='default' className='font-bold' text={'Optimize the Checkout Experience'} />
@@ -38,7 +39,7 @@ class Toshiba extends React.Component {
                         {title:'Overview', text:'Over the summer of 2022, I interned in the UX team at Toshiba Global Commerce Solutions to help drive a more customer-centered retail solutions.'},
                     ]} className='space-y-5' projectTitle = 'Optimize the Checkout Experience' titleDetails = '2022 - Toshiba - UX Intern' />
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 mt-10 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Introduction' 
                         titleDetails = 'The business' 
@@ -51,7 +52,7 @@ class Toshiba extends React.Component {
                     />
                     <SubHeaderText color='text-light-secondary dark:text-dark-secondary' className='mt-5 font-bold underline italic' text='Most of my works here are under NDA protection, please contact me for more details.' />
                 </section>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-6'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-6'>
                     <div>
                         <CaseStudySectionTitle 
                             projectTitle = 'The Main Project Work' 
@@ -73,7 +74,7 @@ class Toshiba extends React.Component {
                         </ul>
                     </ul>
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-16'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
@@ -81,7 +82,7 @@ class Toshiba extends React.Component {
                     />
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 
@@ -90,13 +91,13 @@ class Toshiba extends React.Component {
                     </div>
                     <ul className='flex flex-col xl:flex-row justify-between space-y-6 xl:space-y-0'>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/chatbot'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Educational Design Teaching UX'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/chatbot'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Educational Design Teaching UX'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/ar-game'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Design a Luxrious Experience'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/ar-game'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Design a Luxrious Experience'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
                         </li>
                     </ul>
                 </section>

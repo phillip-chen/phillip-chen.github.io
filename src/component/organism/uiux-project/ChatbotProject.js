@@ -32,7 +32,7 @@ class Chatbot extends React.Component {
         return(
             <>
                 <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
-                    <aside className='w-auto space-x-0'>
+                    <aside className='w-full laptop-lg:w-70% space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - UNC BSI Lab - Client Sponsored Project'} />
                             <HeaderText color='default' className='font-bold' text={'Educational Design Teaching UX'} />
@@ -48,7 +48,7 @@ class Chatbot extends React.Component {
                     ]} className='space-y-5' projectTitle = 'Educational Design Teaching UX' titleDetails = '2022 - UNC BSI Lab - Client Sponsored Project' />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 mt-10'>
                     <aside className='rounded-md'>
                         <div className='inline-block lg:hidden mb-2'>
                             <CaseStudySectionTitle 
@@ -74,7 +74,7 @@ class Chatbot extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-16'>
                     <CaseStudySectionText className=''
                             projectTitle = 'The Context' 
                             titleDetails = 'How it begins' 
@@ -87,7 +87,7 @@ class Chatbot extends React.Component {
                     />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-16'>
                     <aside>
                         <CaseStudySectionTitle 
                                 projectTitle = 'Define the Problems' 
@@ -109,9 +109,9 @@ class Chatbot extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-16'>
                     <div className='flex flex-col xl:flex-row items-center'>
-                        <aside className='space-x-0 w-full'>
+                        <aside className='space-x-0 w-full 2xl:w-60%'>
                             <div className='inline-block lg:hidden'>
                                 <CaseStudySectionTitle 
                                         projectTitle = 'Ideation Process' 
@@ -133,44 +133,44 @@ class Chatbot extends React.Component {
                         </aside>
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text = {'First Iteration'} />
-                        <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary'>
+                        <SubHeaderText color='default' className='font-bold mb-2' text = {'First Iteration'} />
+                        <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary mb-4'>
                             <li>Augmented Reality (AR) Scavenger Hunt</li>
                         </ul>
                         <BodyText color='default' className='mt-2 font-thin' text={['The first idea is to build an AR scavenger hunt as the lab has a track record of building a similar product in the past, but we realized ', <span key='bold-text' className='font-bold text-light-secondary dark:text-dark-secondary'>3 flaws</span>, ' of adopting AR that would potentially damage the experience of our game.']} />
                         <div className='flex flex-col lg:flex-row justify-between mt-6 space-y-4 lg:space-y-0'>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Bad for teaching', <br key='line-brk' /> ,'intangible topics']} />
+                                <BodyText color='default' className='font-bold' text={['Bad for teaching', <br key='line-brk' /> ,'intangible topics']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Does not allow', <br key='line-brk' /> ,'mobility']} />
+                                <BodyText color='default' className='font-bold' text={['Does not allow', <br key='line-brk' /> ,'mobility']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Limited user', <br key='line-brk' /> ,'Interactions']} />
+                                <BodyText color='default' className='font-bold' text={['Limited user', <br key='line-brk' /> ,'Interactions']} />
                             </span>
                         </div>
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text = {'Second Iteration'} />
-                        <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary'>
+                        <SubHeaderText color='default' className='font-bold mb-2' text = {'Second Iteration'} />
+                        <ul className='list-disc pl-4 text-light-primary dark:text-dark-primary mb-2'>
                             <li>Chatbot Scavenger Hunt</li>
                         </ul>
                         <BodyText color='default' className='mt-2 font-thin' text={['Upon discussing multiple ideas, we concluded ', <span key='bold-text' className='font-bold text-light-secondary dark:text-dark-secondary'>3 advantages</span>, ' that chatbot is a better alternative to envision our solution.']} />
                         <div className='flex flex-col lg:flex-row justify-between mt-6 space-y-4 lg:space-y-0'>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Pass data such as', <br key='line-brk' /> ,'image / text easily']} />
+                                <BodyText color='default' className='font-bold' text={['Pass data such as', <br key='line-brk' /> ,'image / text easily']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Personalized', <br key='line-brk' /> ,'Interaction']} />
+                                <BodyText color='default' className='font-bold' text={['Personalized', <br key='line-brk' /> ,'Interaction']} />
                             </span>
                             <span className='border border-light-primary dark:border-dark-primary rounded-md w-full lg:w-30% text-center py-4'>
-                                <SubHeaderText color='default' className='font-bold' text={['Ability to guide', <br key='line-brk' /> ,'through the process']} />
+                                <BodyText color='default' className='font-bold' text={['Ability to guide', <br key='line-brk' /> ,'through the process']} />
                             </span>
                         </div>
                     </div>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-12 2xl:space-y-16'>
                     <CaseStudySectionText className=''
                             projectTitle = 'Story Script' 
                             titleDetails = 'Document the Interactions' 
@@ -181,7 +181,7 @@ class Chatbot extends React.Component {
                         <SmallText color='text-light-primary dark:text-dark-primary' className='text-center' text={'Screenshot of the partial story script'} />
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text={'Why the challenges are relevant?'} />
+                        <SubHeaderText color='default' className='font-bold' text={'Why the challenges are relevant?'} />
                         <ul className='mt-2 list-disc pl-4 text-light-primary dark:text-dark-primary space-y-3 lg:space-y-2 font-body-text'>
                             <li className='underline'><span className='font-bold'>Observation:</span> The interaction helps form assumptions based on what we see.</li>
                             <ul className='mt-2 text-light-primary dark:text-dark-primary space-y-3 lg:space-y-0 font-light'>
@@ -198,7 +198,7 @@ class Chatbot extends React.Component {
                         </ul>
                     </div>
                     <div>
-                        <BodyText color='default' className='font-bold' text = {'Flow Summary'} />
+                        <SubHeaderText color='default' className='font-bold' text = {'Flow Summary'} />
                         <img className='w-full bg-light-tertiary-elevation dark:bg-dark-primary bg-opacity-60 rounded-md mt-2' src={gameFlow} alt='summary of the game flow' />
                     </div>
                     <div>
@@ -221,7 +221,7 @@ class Chatbot extends React.Component {
                     </div>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-10'>
                     <CaseStudySectionText className=''
                             projectTitle = 'Polish the solution' 
                             titleDetails = 'Design Support' 
@@ -239,7 +239,7 @@ class Chatbot extends React.Component {
                     </div>
                 </section>
                 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
@@ -249,7 +249,7 @@ class Chatbot extends React.Component {
 
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 
@@ -258,13 +258,13 @@ class Chatbot extends React.Component {
                     </div>
                     <ul className='flex flex-col xl:flex-row justify-between space-y-6 xl:space-y-0'>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/toshiba'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Optimize the Checkout Experience'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/toshiba'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'1. Optimize the Checkout Experience'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/ar-game'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Design a Luxrious Experience'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/ar-game'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'2. Design a Luxrious Experience'} /></Link>
                         </li>
                         <li>
-                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><SubHeaderText color='default' className='font-thin text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
+                            <Link onClick={this.toTop} to={'/uiux-project/info-design'} className=''><BodyText color='default' className='text-center underline underline-offset-8 hover:text-light-secondary dark:hover:text-dark-secondary' text={'3. Information-driven Storytelling'} /></Link>
                         </li>
                     </ul>
                 </section>
