@@ -15,7 +15,7 @@ class AboutPage extends React.Component{
         
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col xl:flex-row px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5% 2xl:mb-2% space-x-0 xl:space-x-10'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col xl:flex-row px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40 2xl:mb-2% space-x-0 xl:space-x-10'>
                     <aside className='img-section flex flex-col space-y-5'>
                         <img className='h-full w-full sm:w-60% md:w-45% lg:w-40% xl:w-full profile-pic rounded-md border-4 border-light-secondary dark:border-dark-secondary' src={headShot} />
                     </aside>
@@ -38,7 +38,7 @@ class AboutPage extends React.Component{
                     </aside>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10 2xl:py-20 2xl:mb-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10 2xl:py-20 2xl:mb-10'>
                     <div className='space-y-5'>
                         <Header color='default' className={'mt-5 xl:mt-0'} text={"My Skills & Interests"} />
                         <BodyText color='default' className='' text={'I have experiences working on Business Analytics, A/B Testing, Data Visualization Design, UX Design, and Front-end Web Development. My niche interest lies in the intersection of these 3 fields in particular:'} />

@@ -31,7 +31,7 @@ class Chatbot extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5%'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
                     <aside className='w-auto space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - UNC BSI Lab - Client Sponsored Project'} />
@@ -48,7 +48,7 @@ class Chatbot extends React.Component {
                     ]} className='space-y-5' projectTitle = 'Educational Design Teaching UX' titleDetails = '2022 - UNC BSI Lab - Client Sponsored Project' />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10'>
                     <aside className='rounded-md'>
                         <div className='inline-block lg:hidden mb-2'>
                             <CaseStudySectionTitle 
@@ -74,7 +74,7 @@ class Chatbot extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
                     <CaseStudySectionText className=''
                             projectTitle = 'The Context' 
                             titleDetails = 'How it begins' 
@@ -87,7 +87,7 @@ class Chatbot extends React.Component {
                     />
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
                     <aside>
                         <CaseStudySectionTitle 
                                 projectTitle = 'Define the Problems' 
@@ -109,7 +109,7 @@ class Chatbot extends React.Component {
                     </aside>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
                     <div className='flex flex-col xl:flex-row items-center'>
                         <aside className='space-x-0 w-full'>
                             <div className='inline-block lg:hidden'>
@@ -170,7 +170,7 @@ class Chatbot extends React.Component {
                     </div>
                 </section>
 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
                     <CaseStudySectionText className=''
                             projectTitle = 'Story Script' 
                             titleDetails = 'Document the Interactions' 
@@ -199,7 +199,7 @@ class Chatbot extends React.Component {
                     </div>
                     <div>
                         <BodyText color='default' className='font-bold' text = {'Flow Summary'} />
-                        <img className='w-full bg-light-tertiary-elevation bg-opacity-60 rounded-md mt-2' src={gameFlow} alt='summary of the game flow' />
+                        <img className='w-full bg-light-tertiary-elevation dark:bg-dark-primary bg-opacity-60 rounded-md mt-2' src={gameFlow} alt='summary of the game flow' />
                     </div>
                     <div>
                         <CaseStudySectionTitle 
@@ -221,7 +221,7 @@ class Chatbot extends React.Component {
                     </div>
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
                     <CaseStudySectionText className=''
                             projectTitle = 'Polish the solution' 
                             titleDetails = 'Design Support' 
@@ -239,7 +239,7 @@ class Chatbot extends React.Component {
                     </div>
                 </section>
                 
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
@@ -249,7 +249,7 @@ class Chatbot extends React.Component {
 
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 

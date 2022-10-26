@@ -15,7 +15,7 @@ class Navigation extends React.Component{
             localStorage.setItem('renderCount', 0);
 
             return(
-                <header id='top' className='animate__delay-head-init animate__animated animate__fadeIn fixed bottom-0 sm:top-0 bg-light-tertiary dark:bg-dark-tertiary px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% pt-3.5 pb-0 sm:pb-2 sm:pt-6 w-full h-14 sm:h-24'>
+                <header id='top' className='animate__delay-head-init animate__animated animate__fadeIn fixed bottom-0 sm:top-0 bg-light-tertiary dark:bg-dark-tertiary px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% pt-3.5 pb-0 sm:pb-2 sm:pt-6 w-full h-14 sm:h-24'>
                     <nav className='flex flex-row justify-between'>
                         <span className='home-logo-container fixed top-0 left-0 bg-light-tertiary dark:bg-dark-tertiary sm:bg-transparent sm:relative sm:left-0 w-full sm:w-0 pt-6 pb-2 pl-5% sm:p-0'>
                             <NavLink onClick={this.handleClick} className='home-btn-logo inline-block bg-light-primary dark:bg-dark-primary hover:bg-light-secondary dark:hover:bg-dark-secondary  w-12 h-12' page={''} />
@@ -42,7 +42,7 @@ class Navigation extends React.Component{
         }else{
             
             return(
-                <header id='top' className='animate__animated animate__fadeIn fixed bottom-0 sm:top-0 bg-light-tertiary dark:bg-dark-tertiary px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% pt-3.5 pb-0 sm:pb-2 sm:pt-6 w-full h-14 sm:h-24'>
+                <header id='top' className='animate__animated animate__fadeIn fixed bottom-0 sm:top-0 bg-light-tertiary dark:bg-dark-tertiary px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% pt-3.5 pb-0 sm:pb-2 sm:pt-6 w-full h-14 sm:h-24'>
                     <nav className='flex flex-row justify-between'>
                         <span className='home-logo-container fixed top-0 left-0 bg-light-tertiary dark:bg-dark-tertiary sm:bg-transparent sm:relative sm:left-0 w-full sm:w-0 pt-6 pb-2 pl-5% sm:p-0'>
                             <NavLink onClick={this.handleClick} className='home-btn-logo inline-block bg-light-primary dark:bg-dark-primary hover:bg-light-secondary dark:hover:bg-dark-secondary  w-12 h-12' page={''} />

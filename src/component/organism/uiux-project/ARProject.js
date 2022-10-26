@@ -35,7 +35,7 @@ class ARProject extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5%'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-40'>
                     <aside className='w-full space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - UNC BSI Lab - Client Sponsored Project'} />
@@ -203,7 +203,7 @@ class ARProject extends React.Component {
                                             titleDetails = 'Document the interaction'
                                     />
                                 </div>
-                                <BodyText color='default' className='font-thin mt-2' text={['The story consisted of 3 historical figures - ', <span key='bold-text-fig-1' className='font-bold'>George Washington</span>, ', ', <span key='bold-text-fig-2' className='font-bold'>Martha Washington</span>, ', and ', <span key='bold-text-fig-3' className='font-bold'>James Armistead</span>, ' whom we think best represent the historical value of Washington D.C. ( ', <a href={storyScript} target='_blank' className='text-light-secondary dark:text-dark-secondary underline'>Read full length of our story script</a>,' )']} />
+                                <BodyText color='default' className='font-thin mt-2' text={['The story consisted of 3 historical figures - ', <span key='bold-text-fig-1' className='font-bold'>George Washington</span>, ', ', <span key='bold-text-fig-2' className='font-bold'>Martha Washington</span>, ', and ', <span key='bold-text-fig-3' className='font-bold'>James Armistead</span>, ' whom we think best represent the historical value of Washington D.C. ( ', <a href={storyScript} target='_blank' key='link-story' className='text-light-secondary dark:text-dark-secondary underline'>Read full length of our story script</a>,' )']} />
                             </div>
                             <BodyText color='default' className='font-thin' text={'The story built around a secret spy mission referencing an historical event where guests have the chance to collect a unique reward upon finishing the game.'} />
                         </aside>
@@ -225,7 +225,7 @@ class ARProject extends React.Component {
                     </div>
                     <div>
                         <BodyText color='default' className='font-bold' text = {'Interaction Flow Summary'} />
-                        <BodyText color='default' className='font-thin mt-2' text={['Our game consists of 11 steps of interactions to achieve the reward ( ', <a href={storyScript} target='_blank' className='text-light-secondary dark:text-dark-secondary underline'>details are displayed in the story script</a>,' ), where we designed to cater for different level of interactions based on different guest personas.']} />
+                        <BodyText color='default' className='font-thin mt-2' text={['Our game consists of 11 steps of interactions to achieve the reward ( ', <a href={storyScript} target='_blank' key='link-story-2' className='text-light-secondary dark:text-dark-secondary underline'>details are displayed in the story script</a>,' ), where we designed to cater for different level of interactions based on different guest personas.']} />
                         <div className='space-y-4 mt-4'>
                             <img className='rounded-md' src={flow} alt='screenshot of the partial story script' />
                             <SmallText color='text-light-primary dark:text-dark-primary' className='text-center' text={'Screenshot of the end-to-end game interaction flow'} />

@@ -22,7 +22,7 @@ class Toshiba extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5%'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
                     <aside className='w-90% space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>
                             <SmallText color='default' text={'2022 - Toshiba - UX Intern'} />
@@ -38,7 +38,7 @@ class Toshiba extends React.Component {
                         {title:'Overview', text:'Over the summer of 2022, I interned in the UX team at Toshiba Global Commerce Solutions to help drive a more customer-centered retail solutions.'},
                     ]} className='space-y-5' projectTitle = 'Optimize the Checkout Experience' titleDetails = '2022 - Toshiba - UX Intern' />
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Introduction' 
                         titleDetails = 'The business' 
@@ -51,7 +51,7 @@ class Toshiba extends React.Component {
                     />
                     <SubHeaderText color='text-light-secondary dark:text-dark-secondary' className='mt-5 font-bold underline italic' text='Most of my works here are under NDA protection, please contact me for more details.' />
                 </section>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-6'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-6'>
                     <div>
                         <CaseStudySectionTitle 
                             projectTitle = 'The Main Project Work' 
@@ -73,7 +73,7 @@ class Toshiba extends React.Component {
                         </ul>
                     </ul>
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-16'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-16'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
@@ -81,7 +81,7 @@ class Toshiba extends React.Component {
                     />
                 </section>
 
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 

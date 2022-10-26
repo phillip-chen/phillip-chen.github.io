@@ -30,7 +30,7 @@ class InfoDesign extends React.Component {
     render(){
         return(
             <>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-24 sm:mt-28 2xl:mt-5%'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
                         <aside className='w-full space-x-0'>
                             <div className='inline-block lg:hidden mb-2'>
                                 <SmallText color='default' text={'2021-2022 Collection of Information Design Projects'} />
@@ -47,7 +47,7 @@ class InfoDesign extends React.Component {
 
                         ]} className='space-y-5' projectTitle = 'Information-Driven Storytelling' titleDetails = '2021-2022 Collection of Information Design Projects' />
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'The Great Sho' 
                         titleDetails = 'Entertainment Theme of Infographic Design' 
@@ -75,7 +75,7 @@ class InfoDesign extends React.Component {
                         <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-2' text={'Final Design'} />
                     </div>
                 </section>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-10'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-10'>
                     <CaseStudySectionText className=''
                                 projectTitle = 'The Global Worming Problem' 
                                 titleDetails = 'Infographic Design with Organic Details' 
@@ -103,14 +103,14 @@ class InfoDesign extends React.Component {
                         <SmallText color='text-light-primary dark:text-dark-primary' className='text-center mt-2' text={'Final Design'} />
                     </div>
                 </section>
-                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 mt-10 space-y-10'>
+                <section className='case-study-w-bg-section bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-10 space-y-10'>
                     <CaseStudySectionText className=''
                         projectTitle = 'Takeaway' 
                         titleDetails = 'Lessons I learned' 
                         text = {'I was struggled a lot at the beginning as I had never used Adobe Creative Suite other than XD before. I spent a lot of time and was thrilled to see the final designs been pulled off together. I learned how to better validate the data and how to design better ways of delivering powerful information-driven stories.'}
                     />
                 </section>
-                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-30% py-10 space-y-4'>
+                <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col justify-between px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 space-y-4'>
                     <div className='inline-block mx-auto mb-3 xl:mx-0'>
                         <CaseStudySectionTitle 
                             projectTitle = 'Read Other Case Studies >' 

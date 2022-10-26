@@ -32,7 +32,7 @@ root.render(
       <Route path='/uiux-project/ar-game' element={<ARProject />}></Route>
       <Route path='/uiux-project/info-design' element={<InfoDesign />}></Route>
     </Routes>
-    <ToTopBtn className='to-top-btn fixed bottom-14 w-full sm:bottom-0 xl:right-4.5% laptop-md:right-6% laptop-lg:right-12% text-sm duration-0' text = 'Back To Top' sectionName = 'top' />
+    <ToTopBtn className='to-top-btn fixed bottom-14 w-full sm:bottom-0 xl:right-4.5% laptop-md:right-6% laptop-lg:right-10% text-sm duration-0' text = 'Back To Top' sectionName = 'top' />
     <Footer />
   </HashRouter>
 );
