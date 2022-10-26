@@ -57,12 +57,12 @@ class ProjectCard extends React.Component{
         }else if(this.props.projectType === 'dev-project'){
             return(
                 <div className={this.props.className + this.props.projectType + ' project-card flex flex-col xl:flex-row items-start justify-between bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation rounded-sm w-full p-4'}>
-                    <div className='w-80% self-center hidden xl:inline-block'>
+                    <div className='w-80% laptop-lg:w-60% self-center hidden xl:inline-block'>
                         <img src= {imgArr[this.props.projectName]} alt={this.props.projectName + ' photo'} className='rounded-md mx-auto project-img' />
                     </div>
                     <div className='w-full h-full px-4 flex flex-col justify-around'>
                         <div className='w-full'>
-                            <SmallText color='default' className="mb-0 mt-2" text = {this.props.projectSubTitle} />
+                            <SmallText color='default' className="mb-0" text = {this.props.projectSubTitle} />
                             <SubHeader color='default' className="mb-2 font-bold" text={this.props.projectTitle} />
                             <div className='w-full self-center inline-block xl:hidden'>
                                 <img src= {imgArr[this.props.projectName]} alt={this.props.projectName + ' photo'} className='rounded-md mx-auto project-img w-full' />
