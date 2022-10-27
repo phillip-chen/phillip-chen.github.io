@@ -10,6 +10,8 @@ import {Link} from 'react-router-dom';
 // import all project's assets
 import toshibaHomeImg from '../../../asset/toshiba/home-img.png';
 
+import { Helmet } from 'react-helmet';
+
 class Toshiba extends React.Component {
     constructor(props){
         super(props);
@@ -23,6 +25,9 @@ class Toshiba extends React.Component {
     render(){
         return(
             <>
+                <Helmet>
+                    <title>Toshiba Page</title>
+                </Helmet>
                 <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-20 mt-24 sm:mt-40'>
                     <aside className='w-full laptop-lg:w-50% space-x-0'>
                         <div className='inline-block lg:hidden mb-2'>

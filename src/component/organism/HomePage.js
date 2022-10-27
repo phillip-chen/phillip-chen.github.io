@@ -7,6 +7,8 @@ import Dropdown from '../molecular/Dropdown';
 import ProjectCard from '../molecular/ProjectCard';
 import LogoLoader from '../atom/LogoLoader';
 import resume from '../../asset/phillip-chen-resume-2022.pdf';
+
+import { Helmet } from 'react-helmet';
   
 
 class HomePage extends React.Component{
@@ -38,12 +40,15 @@ class HomePage extends React.Component{
 
 
     render(){
-        
+
         let animation = this.renderCount(this.state);
 
         return (
             <>
                 {animation.loader}
+                <Helmet>
+                    <title>Home Page</title>
+               </Helmet>
                 <section className={animation.animation1 + 'home-text-section px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40 space-y-6 md:space-y-5 2xl:space-y-7'}>
                     <Header color='default' className='' text={"Hi! I am Yi-Tsung (Phillip) Chen"} />
                     <SubHeader color='default' className='' text={["A UX Designer / Developer studying Information Science at the University of North Carolina - Chapel Hill. Previously tackled user problems at ", <span key='important-text-1' className='font-bold text-light-secondary dark:text-dark-secondary'>Toshiba</span>, " & ", <span key='important-text-2' className='font-bold text-light-secondary dark:text-dark-secondary'>UNC BSI Lab</span>]} />
