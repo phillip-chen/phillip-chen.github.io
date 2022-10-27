@@ -47,7 +47,7 @@ class HomePage extends React.Component{
             <>
                 {animation.loader}
                 <Helmet>
-                    <title>Home Page</title>
+                    <title>Yi-Tsung (Phillip) Chen</title>
                </Helmet>
                 <section className={animation.animation1 + 'home-text-section px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40 space-y-6 md:space-y-5 2xl:space-y-7'}>
                     <Header color='default' className='' text={"Hi! I am Yi-Tsung (Phillip) Chen"} />

@@ -17,7 +17,7 @@ class AboutPage extends React.Component{
         return(
             <>
                 <Helmet>
-                    <title>Home Page</title>
+                    <title>Yi-Tsung (Phillip) Chen | About</title>
                </Helmet>
                 <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col xl:flex-row px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40 2xl:mb-2% space-x-0 xl:space-x-10'>
                     <aside className='img-section flex flex-col space-y-5'>

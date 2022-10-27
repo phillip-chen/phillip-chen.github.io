@@ -34,7 +34,7 @@ class Chatbot extends React.Component {
         return(
             <>
                 <Helmet>
-                    <title>Chatbot Page</title>
+                    <title>Yi-Tsung (Phillip) Chen | Educational Design</title>
                 </Helmet>
                 <section className='animate__delay-body animate__animated animate__fadeIn flex flex-col lg:flex-row justify-center px-5% md:px-10% xl:px-15% laptop-md:px-18% laptop-lg:px-25% py-10 mt-24 sm:mt-40'>
                     <aside className='w-full laptop-lg:w-70% space-x-0'>
