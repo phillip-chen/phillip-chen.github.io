@@ -13,6 +13,7 @@ import cvKioskImg from '../../asset/dev-project/cv-kiosk-home-img.png';
 import movieDashImg from '../../asset/dev-project/movie-viz-project.png';
 import webDashImg from '../../asset/dev-project/rwd-dashboard-project.png';
 import colaWarImg from '../../asset/dev-project/cola-war-project.png';
+import {Link} from 'react-router-dom';
 
 
 const imgArr = {
@@ -36,13 +37,19 @@ const sourceCodeURL = {
 
 class ProjectCard extends React.Component{
     constructor(props){
-        super(props)
+        super(props);
+        this.routing = this.routing.bind(this);
+    }
+
+    routing = () => {
+        window.scrollTo(0,0);
+        window.location.hash = `#/${this.props.projectType}/${this.props.projectName}`
     }
 
     render(){
         if(this.props.projectType === 'uiux-project'){
             return(
-                <div className={this.props.className + this.props.projectType + ' project-card flex flex-col items-start justify-between bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation rounded-sm w-full lg:w-49% p-4'}>
+                <div onClick={this.routing} className={this.props.className + this.props.projectType + ' cursor-pointer hover:scale-95 border-2 border-transparent dark:hover:border-dark-secondary hover:border-light-secondary hover:transition hover:ease-in hover:duration-150 project-card flex flex-col items-start justify-between bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation rounded-sm w-full lg:w-49% p-4'}>
                     <div className='w-full'>
                         <SmallText color='default' className="mb-0 mt-2" text = {this.props.projectSubTitle} />
                         <SubHeader color='default' className="mb-2 font-bold" text={this.props.projectTitle} />
