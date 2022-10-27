@@ -49,7 +49,7 @@ class ProjectCard extends React.Component{
     render(){
         if(this.props.projectType === 'uiux-project'){
             return(
-                <div onClick={this.routing} className={this.props.className + this.props.projectType + ' cursor-pointer hover:scale-95 border-2 border-transparent dark:hover:border-dark-secondary hover:border-light-secondary hover:transition hover:ease-in hover:duration-150 project-card flex flex-col items-start justify-between bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation rounded-sm w-full lg:w-49% p-4'}>
+                <div onClick={this.routing} className={this.props.className + this.props.projectType + ' cursor-pointer border-2 border-transparent dark:hover:border-dark-secondary hover:border-light-secondary hover:transition hover:ease-in hover:duration-150 project-card flex flex-col items-start justify-between bg-light-tertiary-elevation dark:bg-dark-tertiary-elevation rounded-sm w-full lg:w-49% p-4'}>
                     <div className='w-full'>
                         <SmallText color='default' className="mb-0 mt-2" text = {this.props.projectSubTitle} />
                         <SubHeader color='default' className="mb-2 font-bold" text={this.props.projectTitle} />
