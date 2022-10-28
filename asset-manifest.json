@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.19720576.css",
+    "main.css": "/static/css/main.bba04a26.css",
     "main.js": "/static/js/main.a51985ff.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
@@ -37,11 +37,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.4e771481c58944bca436.svg",
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
-    "main.19720576.css.map": "/static/css/main.19720576.css.map",
+    "main.bba04a26.css.map": "/static/css/main.bba04a26.css.map",
     "main.a51985ff.js.map": "/static/js/main.a51985ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.19720576.css",
+    "static/css/main.bba04a26.css",
     "static/js/main.a51985ff.js"
   ]
 }
