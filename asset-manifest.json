@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bba04a26.css",
-    "main.js": "/static/js/main.8821e0bd.js",
+    "main.css": "/static/css/main.aa9e29b9.css",
+    "main.js": "/static/js/main.dcf4472d.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/design-asset.svg": "/static/media/design-asset.af150c1d5d86653cb213b75bede876a9.svg",
@@ -32,16 +32,16 @@
     "static/media/cola-war-project.png": "/static/media/cola-war-project.df586e2274c1415c0dae.png",
     "static/media/floor-plan.png": "/static/media/floor-plan.201aa490436fd97c91a6.png",
     "static/media/logo.svg": "/static/media/logo.3d77c150875013cd7fc3.svg",
-    "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.ae15323b8e873e50df9e.svg",
+    "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.4e771481c58944bca436.svg",
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
-    "main.bba04a26.css.map": "/static/css/main.bba04a26.css.map",
-    "main.8821e0bd.js.map": "/static/js/main.8821e0bd.js.map"
+    "main.aa9e29b9.css.map": "/static/css/main.aa9e29b9.css.map",
+    "main.dcf4472d.js.map": "/static/js/main.dcf4472d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bba04a26.css",
-    "static/js/main.8821e0bd.js"
+    "static/css/main.aa9e29b9.css",
+    "static/js/main.dcf4472d.js"
   ]
 }
