@@ -28,7 +28,7 @@ class App extends React.Component {
         
         ReactGa.initialize('G-GLHKSTM3M9');
         // to report page view
-        ReactGa.pageview(window.location.pathname + window.location.search);
+        ReactGa.pageview(window.location.hash + window.location.search);
     }
 
     render(){
