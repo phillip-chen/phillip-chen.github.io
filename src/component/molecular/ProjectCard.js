@@ -13,6 +13,7 @@ import cvKioskImg from '../../asset/dev-project/cv-kiosk-home-img.png';
 import movieDashImg from '../../asset/dev-project/movie-viz-project.png';
 import webDashImg from '../../asset/dev-project/rwd-dashboard-project.png';
 import colaWarImg from '../../asset/dev-project/cola-war-project.png';
+import mapDesignImg from '../../asset/dev-project/map-design-project.png';
 import {Link} from 'react-router-dom';
 
 
@@ -24,14 +25,16 @@ const imgArr = {
     'cv-kiosk' : cvKioskImg,
     'movie-dash' : movieDashImg,
     'web-dash-design' : webDashImg,
-    'cola-war' : colaWarImg
+    'cola-war' : colaWarImg,
+    'map-design' : mapDesignImg
 }
 
 const sourceCodeURL = {
     'cv-kiosk' : 'https://github.com/phillip-chen/MEJO583-Facial-Recognition-Picture-Frame',
     'movie-dash' : 'https://github.com/phillip-chen/INLS641-Final-Project',
     'web-dash-design' : 'https://github.com/phillip-chen/mejo-487-Project-1',
-    'cola-war' : 'https://github.com/phillip-chen/mejo-487-project-2'
+    'cola-war' : 'https://github.com/phillip-chen/mejo-487-project-2',
+    'map-design' : 'https://github.com/phillip-chen/mejo-487-final-project',
 }
 
 
