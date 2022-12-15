@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bba04a26.css",
-    "main.js": "/static/js/main.fba29731.js",
+    "main.js": "/static/js/main.40fddef7.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/design-asset.svg": "/static/media/design-asset.af150c1d5d86653cb213b75bede876a9.svg",
@@ -22,6 +22,7 @@
     "static/media/head-shot.png": "/static/media/head-shot.fefc70a764e7a5ae5ddf.png",
     "static/media/home-img.png": "/static/media/home-img.f2ecf13d771902b1e402.png",
     "static/media/cv-kiosk-home-img.png": "/static/media/cv-kiosk-home-img.a77ab6f54f0fd3b3bb61.png",
+    "static/media/map-design-project.png": "/static/media/map-design-project.8c1e38cfd64b538923fd.png",
     "static/media/story-script.png": "/static/media/story-script.f92b07cdcbcf67bf00fd.png",
     "static/media/reward-map.png": "/static/media/reward-map.bda26199c2072dc64816.png",
     "static/media/game-flow.svg": "/static/media/game-flow.e78bc87ccecd8ddb48de584d769b85df.svg",
@@ -38,10 +39,10 @@
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
     "main.bba04a26.css.map": "/static/css/main.bba04a26.css.map",
-    "main.fba29731.js.map": "/static/js/main.fba29731.js.map"
+    "main.40fddef7.js.map": "/static/js/main.40fddef7.js.map"
   },
   "entrypoints": [
     "static/css/main.bba04a26.css",
-    "static/js/main.fba29731.js"
+    "static/js/main.40fddef7.js"
   ]
 }
