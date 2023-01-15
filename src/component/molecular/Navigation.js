@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLink from '../atom/NavLink';
 import Switch from '../atom/DarkModeSwitch';
-import resume from '../../asset/phillip-chen-resume-2022.pdf';
+import resume from '../../asset/phillip-chen-resume.pdf';
 
 class Navigation extends React.Component{
     constructor(props){

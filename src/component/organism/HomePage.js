@@ -6,7 +6,7 @@ import IconNavList from '../molecular/IconNavList';
 import Dropdown from '../molecular/Dropdown';
 import ProjectCard from '../molecular/ProjectCard';
 import LogoLoader from '../atom/LogoLoader';
-import resume from '../../asset/phillip-chen-resume-2022.pdf';
+import resume from '../../asset/phillip-chen-resume.pdf';
 
 import { Helmet } from 'react-helmet';
   
