@@ -16,6 +16,14 @@
     animation-delay: calc(var(--animate-delay)*4.3);
 }
 
+.animate__delay-filter{
+    animation-delay: calc(var(--animate-delay)*4.7);
+}
+
+.animate__delay-filter-2{
+    animation-delay: calc(var(--animate-delay)*5.4);
+}
+
 .animate__delay-banner{
     animation-delay: calc(var(--animate-delay)*.1);
 }
@@ -150,5 +158,18 @@ footer{
     .section-jumper-link:hover .section-jumper-arrow{
         margin-bottom: 1rem;
         transition: margin-bottom .25s;
+    }
+}
+
+.filter-sign{
+    animation: MoveUpDown 2s ease-in infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -10px;
     }
 }

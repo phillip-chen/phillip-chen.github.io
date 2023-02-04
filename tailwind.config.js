@@ -11,6 +11,7 @@ module.exports = {
         'body-text': ['Raleway', 'ui-sans-serif', 'system-ui']
       },
       screens: {
+        'xs': '480px',
         'laptop-md': '1390px',
         'laptop-lg': '2200px'
       },
