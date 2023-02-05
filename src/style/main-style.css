@@ -21,7 +21,7 @@
 }
 
 .animate__delay-filter-2{
-    animation-delay: calc(var(--animate-delay)*5.4);
+    animation-delay: calc(var(--animate-delay)*5.3);
 }
 
 .animate__delay-banner{

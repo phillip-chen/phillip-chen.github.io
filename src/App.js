@@ -36,12 +36,12 @@ class App extends React.Component {
             <HashRouter>      
                 <Navigation />
                 <Routes>
-                <Route path='/' element={<HomePage />}></Route>
-                <Route path='/about' element={<AboutPage />}></Route>
-                <Route path='/uiux-project/chatbot' element={<ChatBot />}></Route>
-                <Route path='/uiux-project/toshiba' element={<Toshiba />}></Route>
-                <Route path='/uiux-project/ar-game' element={<ARProject />}></Route>
-                <Route path='/uiux-project/info-design' element={<InfoDesign />}></Route>
+                <Route exact path='/' element={<HomePage />}></Route>
+                <Route exact path='/about' element={<AboutPage />}></Route>
+                <Route exact path='/uiux-project/chatbot' element={<ChatBot />}></Route>
+                <Route exact path='/uiux-project/toshiba' element={<Toshiba />}></Route>
+                <Route exact path='/uiux-project/ar-game' element={<ARProject />}></Route>
+                <Route exact path='/uiux-project/info-design' element={<InfoDesign />}></Route>
                 </Routes>
                 <ToTopBtn className='to-top-btn fixed bottom-14 w-full sm:bottom-0 xl:right-4.5% laptop-md:right-6% laptop-lg:right-10% text-sm duration-0' text = 'Back To Top' sectionName = 'top' />
                 <Footer />

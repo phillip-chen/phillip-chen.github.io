@@ -38,6 +38,10 @@ class HomePage extends React.Component{
 
     }
 
+    componentDidMount(){
+        let homeLink = document.getElementById('project-page-link');
+    }
+
 
     render(){
 

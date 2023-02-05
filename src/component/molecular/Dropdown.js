@@ -57,9 +57,9 @@ class Dropdown extends React.Component{
         let placeHolder = document.getElementById('filter-placeholder');
 
         if(placeHolder){
-            if(!placeHolder.classList.contains('animate__fadeOutUp')){
-                placeHolder.classList.remove('animate__fadeIn', 'animate__delay-filter');
-                placeHolder.classList.add('animate__fadeOutUp');
+            if(!placeHolder.classList.contains('animate__flipOutX')){
+                placeHolder.classList.remove('animate__flipInX', 'animate__delay-filter');
+                placeHolder.classList.add('animate__flipOutX');
                 setTimeout(()=>{
                     placeHolder.classList.add('hidden');
                     localStorage.setItem('hovered', true);
@@ -76,9 +76,9 @@ class Dropdown extends React.Component{
                 {localStorage.getItem('hovered')==='true'?
                     <></>
                     :
-                    <div id='filter-placeholder' className={`absolute -left-6 -top-9 flex flex-row text-light-primary dark:text-dark-primary animate__animated ${Number(localStorage.getItem('renderCount'))>1?'':'animate__fadeInUp animate__delay-filter'}`}>
+                    <div id='filter-placeholder' className={`hidden absolute -left-6 -top-9 xs:flex flex-row text-light-primary dark:text-dark-primary animate__animated ${Number(localStorage.getItem('renderCount'))>1?'':'animate__flipInX animate__delay-filter'}`}>
                         <span className='rotate-45 mt-6 font-bold'>&#8618;</span>
-                        <p className={`font-bold text-sm xs:text-base sm:text-lg animate__animated ${Number(localStorage.getItem('renderCount'))>1?'':'animate__pulse animate__delay-filter-2 animate__repeat-2 animate__fast'}`}>Filter & View Other Projects</p>
+                        <p className={`font-bold text-sm xs:text-base sm:text-lg animate__animated`}>Filter & View Other Projects</p>
                     </div>
                 }
                 <select onChange={this.filter} onMouseOver={this.hidePlaceholder} id='filter' className="cursor-pointer w-full px-2.5 py-1 text-light-primary dark:text-dark-primary bg-transparent border rounded-sm shadow-sm outline-none text-base appearance-none">
