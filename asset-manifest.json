@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6585b5f6.css",
-    "main.js": "/static/js/main.5b5fe451.js",
+    "main.js": "/static/js/main.238c2215.js",
     "static/media/chatbot-demo.mp4": "/static/media/chatbot-demo.e2c1cf9a9d0444b73a02.mp4",
     "static/media/ar-game-demo.mp4": "/static/media/ar-game-demo.a384c3f857dea5221371.mp4",
     "static/media/design-asset.svg": "/static/media/design-asset.af150c1d5d86653cb213b75bede876a9.svg",
@@ -26,7 +26,7 @@
     "static/media/story-script.png": "/static/media/story-script.f92b07cdcbcf67bf00fd.png",
     "static/media/reward-map.png": "/static/media/reward-map.bda26199c2072dc64816.png",
     "static/media/game-flow.svg": "/static/media/game-flow.e78bc87ccecd8ddb48de584d769b85df.svg",
-    "static/media/phillip-chen-resume.pdf": "/static/media/phillip-chen-resume.3fa31421f25f9673722f.pdf",
+    "static/media/phillip-chen-resume.pdf": "/static/media/phillip-chen-resume.a700f22a1de557b616fc.pdf",
     "static/media/GW-Game-story.pdf": "/static/media/GW-Game-story.157ee015420f20dc6b16.pdf",
     "static/media/movie-viz-project.png": "/static/media/movie-viz-project.6d893df867e8fc7084c1.png",
     "static/media/rwd-dashboard-project.png": "/static/media/rwd-dashboard-project.9cb86526a1c307145375.png",
@@ -39,10 +39,10 @@
     "static/media/email.svg": "/static/media/email.b86e647b0aef2dc12900.svg",
     "static/media/arrow.svg": "/static/media/arrow.c63fd5e1e753a3131818.svg",
     "main.6585b5f6.css.map": "/static/css/main.6585b5f6.css.map",
-    "main.5b5fe451.js.map": "/static/js/main.5b5fe451.js.map"
+    "main.238c2215.js.map": "/static/js/main.238c2215.js.map"
   },
   "entrypoints": [
     "static/css/main.6585b5f6.css",
-    "static/js/main.5b5fe451.js"
+    "static/js/main.238c2215.js"
   ]
 }
